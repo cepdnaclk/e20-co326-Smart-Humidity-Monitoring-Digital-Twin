@@ -65,7 +65,7 @@ flowchart LR
 
 ## Team members
 
-| Name | Role |
+
 |---|---|
 | [Member 1] | [TODO] |
 | [Member 2] | [TODO] |
