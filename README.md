@@ -66,8 +66,9 @@ flowchart LR
 ## Team members
 
 
-|---|---|
-| [Member 1] | [TODO] |
-| [Member 2] | [TODO] |
-| [Member 3] | [TODO] |
-| [Member 4] | [TODO] |
+| Name | Registration No. |
+|---|---|---|
+| Tharusha Haththella | E/20/133 |
+| Sachindu Premasiri | E/20/305  |
+| Nimesha Somathilaka | E/20/381  |
+| Devin Sriyarathna | E/20/385 |
