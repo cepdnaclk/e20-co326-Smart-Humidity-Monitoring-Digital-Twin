@@ -1,0 +1,506 @@
+[
+    {
+        "id": "flow_main",
+        "type": "tab",
+        "label": "Humidity Digital Twin",
+        "disabled": false,
+        "info": "CO326 - Smart Humidity Monitoring Digital Twin\nMQTT \u00e2\u2020\u2019 InfluxDB \u00e2\u2020\u2019 Grafana Pipeline with RUL Estimation"
+    },
+    {
+        "id": "mqtt_broker_config",
+        "type": "mqtt-broker",
+        "name": "Mosquitto Broker",
+        "broker": "mosquitto_broker",
+        "port": "1883",
+        "clientid": "nodered_client",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "influxdb_config",
+        "type": "influxdb",
+        "hostname": "influxdb",
+        "port": "8086",
+        "protocol": "http",
+        "database": "co326_bucket",
+        "name": "InfluxDB (co326)",
+        "usetls": false,
+        "tls": "",
+        "influxdbVersion": "2.0",
+        "url": "http://influxdb:8086",
+        "timeout": "",
+        "rejectUnauthorized": true
+    },
+    {
+        "id": "comment_header",
+        "type": "comment",
+        "z": "flow_main",
+        "name": "=== CO326: Smart Humidity Monitoring Digital Twin ===",
+        "info": "Main data pipeline: MQTT \u00e2\u2020\u2019 Parse \u00e2\u2020\u2019 InfluxDB\nAlert pipeline: MQTT \u00e2\u2020\u2019 Filter \u00e2\u2020\u2019 Alert Topic\nRUL pipeline: Data \u00e2\u2020\u2019 RUL Estimation \u00e2\u2020\u2019 InfluxDB\nControl pipeline: Dashboard \u00e2\u2020\u2019 MQTT Command",
+        "x": 320,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "comment_data_pipeline",
+        "type": "comment",
+        "z": "flow_main",
+        "name": "\u00e2\u201d\u20ac\u00e2\u201d\u20ac Data Ingestion Pipeline \u00e2\u201d\u20ac\u00e2\u201d\u20ac",
+        "info": "",
+        "x": 170,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "mqtt_in_data",
+        "type": "mqtt in",
+        "z": "flow_main",
+        "name": "MQTT: Telemetry Data",
+        "topic": "spBv1.0/SmartFactory/DDATA/HumidityMonitoring/humidityTwin01",
+        "qos": "1",
+        "datatype": "json",
+        "broker": "mqtt_broker_config",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 180,
+        "y": 140,
+        "wires": [
+            [
+                "json_parse_data",
+                "debug_data",
+                "alert_switch",
+                "rul_function"
+            ]
+        ]
+    },
+    {
+        "id": "json_parse_data",
+        "type": "function",
+        "z": "flow_main",
+        "name": "Parse \u00e2\u2020\u2019 InfluxDB Format",
+        "func": "// Parse telemetry data and format for InfluxDB 2.0\nvar data = msg.payload;\n\nmsg.payload = {\n    humidity: parseFloat(data.humidity) || 0,\n    temperature: parseFloat(data.temperature) || 0,\n    ml_prediction: parseFloat(data.ml_prediction) || 0,\n    anomaly_score: parseFloat(data.anomaly_score) || 0,\n    dehumidifier_state: data.dehumidifier_state === \"ON\" ? 1 : 0,\n    anomaly_status: data.anomaly_status || \"UNKNOWN\",\n    trend: data.trend || \"UNKNOWN\",\n    device_id: data.device_id || \"humidityTwin01\",\n    is_online: data.status === \"ONLINE\" ? 1 : 0\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 120,
+        "wires": [
+            [
+                "influxdb_out"
+            ]
+        ]
+    },
+    {
+        "id": "influxdb_out",
+        "type": "influxdb out",
+        "z": "flow_main",
+        "influxdb": "influxdb_config",
+        "name": "Write to InfluxDB",
+        "measurement": "humidity_telemetry",
+        "precision": "ms",
+        "retentionPolicy": "",
+        "database": "",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "co326_org",
+        "bucket": "co326_bucket",
+        "x": 730,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "debug_data",
+        "type": "debug",
+        "z": "flow_main",
+        "name": "Debug: Telemetry",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload.humidity",
+        "statusType": "msg",
+        "x": 450,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "comment_alert_pipeline",
+        "type": "comment",
+        "z": "flow_main",
+        "name": "\u00e2\u201d\u20ac\u00e2\u201d\u20ac Alert Pipeline \u00e2\u201d\u20ac\u00e2\u201d\u20ac",
+        "info": "",
+        "x": 140,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "alert_switch",
+        "type": "switch",
+        "z": "flow_main",
+        "name": "Filter Anomalies",
+        "property": "payload.anomaly_status",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "WARNING",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "CRITICAL",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 180,
+        "y": 300,
+        "wires": [
+            [
+                "alert_format_warning"
+            ],
+            [
+                "alert_format_critical"
+            ]
+        ]
+    },
+    {
+        "id": "alert_format_warning",
+        "type": "function",
+        "z": "flow_main",
+        "name": "Format WARNING Alert",
+        "func": "var data = msg.payload;\nmsg.payload = {\n    timestamp: data.timestamp,\n    device_id: data.device_id,\n    level: \"WARNING\",\n    anomaly_score: data.anomaly_score,\n    humidity: data.humidity,\n    ml_prediction: data.ml_prediction,\n    message: \"Humidity deviation detected (score: \" + data.anomaly_score + \")\"\n};\nreturn msg;",
+        "outputs": 1,
+        "x": 440,
+        "y": 280,
+        "wires": [
+            [
+                "mqtt_out_anomaly",
+                "alert_influx"
+            ]
+        ]
+    },
+    {
+        "id": "alert_format_critical",
+        "type": "function",
+        "z": "flow_main",
+        "name": "Format CRITICAL Alert",
+        "func": "var data = msg.payload;\nmsg.payload = {\n    timestamp: data.timestamp,\n    device_id: data.device_id,\n    level: \"CRITICAL\",\n    anomaly_score: data.anomaly_score,\n    humidity: data.humidity,\n    ml_prediction: data.ml_prediction,\n    message: \"CRITICAL humidity anomaly! (score: \" + data.anomaly_score + \")\"\n};\nreturn msg;",
+        "outputs": 1,
+        "x": 440,
+        "y": 340,
+        "wires": [
+            [
+                "mqtt_out_anomaly",
+                "alert_influx"
+            ]
+        ]
+    },
+    {
+        "id": "mqtt_out_anomaly",
+        "type": "mqtt out",
+        "z": "flow_main",
+        "name": "MQTT: Publish Alert",
+        "topic": "spBv1.0/SmartFactory/DDATA/HumidityMonitoring/humidityTwin01/anomaly",
+        "qos": "1",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "mqtt_broker_config",
+        "x": 710,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "alert_influx",
+        "type": "function",
+        "z": "flow_main",
+        "name": "Alert \u00e2\u2020\u2019 InfluxDB Format",
+        "func": "var data = msg.payload;\nmsg.payload = {\n    anomaly_score: parseFloat(data.anomaly_score) || 0,\n    humidity: parseFloat(data.humidity) || 0,\n    ml_prediction: parseFloat(data.ml_prediction) || 0,\n    level: data.level || \"UNKNOWN\",\n    message: data.message || \"\",\n    device_id: data.device_id || \"humidityTwin01\"\n};\nreturn msg;",
+        "outputs": 1,
+        "x": 720,
+        "y": 340,
+        "wires": [
+            [
+                "influxdb_out_alerts"
+            ]
+        ]
+    },
+    {
+        "id": "influxdb_out_alerts",
+        "type": "influxdb out",
+        "z": "flow_main",
+        "influxdb": "influxdb_config",
+        "name": "Write Alerts to InfluxDB",
+        "measurement": "humidity_alerts",
+        "precision": "ms",
+        "retentionPolicy": "",
+        "database": "",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "co326_org",
+        "bucket": "co326_bucket",
+        "x": 970,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "comment_rul_pipeline",
+        "type": "comment",
+        "z": "flow_main",
+        "name": "\u00e2\u201d\u20ac\u00e2\u201d\u20ac RUL Estimation Pipeline (Cloud Analytics) \u00e2\u201d\u20ac\u00e2\u201d\u20ac",
+        "info": "",
+        "x": 240,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "rul_function",
+        "type": "function",
+        "z": "flow_main",
+        "name": "RUL Estimation (Linear Trend)",
+        "func": "// Remaining Useful Life (RUL) Estimation\n// Uses linear trend analysis on anomaly scores\n\nvar THRESHOLD = 5.0;  // CRITICAL threshold\nvar INTERVAL = 2;     // seconds between readings\nvar WINDOW = 30;      // readings to analyze\n\n// Initialize context storage\nvar scores = context.get('anomaly_scores') || [];\nvar data = msg.payload;\n\n// Skip INITIALIZING readings\nif (data.anomaly_status === 'INITIALIZING') {\n    return [null, null];\n}\n\n// Add current score\nscores.push(parseFloat(data.anomaly_score) || 0);\n\n// Keep only last WINDOW readings\nif (scores.length > WINDOW) {\n    scores = scores.slice(-WINDOW);\n}\ncontext.set('anomaly_scores', scores);\n\n// Need at least 10 readings for RUL\nif (scores.length < 10) {\n    return [null, null];\n}\n\n// Linear regression on scores\nvar n = scores.length;\nvar sumX = 0, sumY = 0, sumXY = 0, sumX2 = 0;\nfor (var i = 0; i < n; i++) {\n    sumX += i;\n    sumY += scores[i];\n    sumXY += i * scores[i];\n    sumX2 += i * i;\n}\n\nvar slope = (n * sumXY - sumX * sumY) / (n * sumX2 - sumX * sumX);\nvar intercept = (sumY - slope * sumX) / n;\nvar currentLevel = scores[scores.length - 1];\n\nvar rul_seconds = -1;\nvar rul_status = 'HEALTHY';\nvar rul_display = 'Healthy';\n\nif (slope > 0) {\n    var stepsToThreshold = (THRESHOLD - currentLevel) / slope;\n    if (stepsToThreshold < 0) {\n        rul_seconds = 0;\n        rul_status = 'CRITICAL';\n        rul_display = 'Exceeded';\n    } else {\n        rul_seconds = Math.round(stepsToThreshold * INTERVAL);\n        rul_status = 'DEGRADING';\n        rul_display = rul_seconds + 's';\n    }\n}\n\n// Build InfluxDB message (simple object for v2.0)\nvar influxMsg = {\n    payload: {\n        rul_seconds: rul_seconds,\n        trend_slope: slope,\n        current_score: currentLevel,\n        threshold: THRESHOLD,\n        rul_status: rul_status,\n        device_id: data.device_id || 'humidityTwin01'\n    }\n};\n\n// Build MQTT RUL message\nvar rulMsg = {\n    payload: JSON.stringify({\n        timestamp: data.timestamp,\n        device_id: data.device_id,\n        rul_seconds: rul_seconds,\n        rul_status: rul_status,\n        rul_display: rul_display,\n        trend_slope: Math.round(slope * 10000) / 10000\n    })\n};\n\nreturn [influxMsg, rulMsg];",
+        "outputs": 2,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 210,
+        "y": 460,
+        "wires": [
+            [
+                "influxdb_out_rul"
+            ],
+            [
+                "mqtt_out_rul"
+            ]
+        ]
+    },
+    {
+        "id": "influxdb_out_rul",
+        "type": "influxdb out",
+        "z": "flow_main",
+        "influxdb": "influxdb_config",
+        "name": "Write RUL to InfluxDB",
+        "measurement": "humidity_rul",
+        "precision": "ms",
+        "retentionPolicy": "",
+        "database": "",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "co326_org",
+        "bucket": "co326_bucket",
+        "x": 510,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "mqtt_out_rul",
+        "type": "mqtt out",
+        "z": "flow_main",
+        "name": "MQTT: Publish RUL",
+        "topic": "spBv1.0/SmartFactory/DDATA/HumidityMonitoring/humidityTwin01/rul",
+        "qos": "1",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "mqtt_broker_config",
+        "x": 500,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "comment_status_pipeline",
+        "type": "comment",
+        "z": "flow_main",
+        "name": "\u00e2\u201d\u20ac\u00e2\u201d\u20ac Device Status & LWT \u00e2\u201d\u20ac\u00e2\u201d\u20ac",
+        "info": "",
+        "x": 170,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "mqtt_in_status",
+        "type": "mqtt in",
+        "z": "flow_main",
+        "name": "MQTT: Device Status (LWT)",
+        "topic": "spBv1.0/SmartFactory/DDATA/HumidityMonitoring/humidityTwin01/status",
+        "qos": "1",
+        "datatype": "json",
+        "broker": "mqtt_broker_config",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 200,
+        "y": 620,
+        "wires": [
+            [
+                "status_influx",
+                "debug_status"
+            ]
+        ]
+    },
+    {
+        "id": "status_influx",
+        "type": "function",
+        "z": "flow_main",
+        "name": "Status \u00e2\u2020\u2019 InfluxDB Format",
+        "func": "var data = msg.payload;\nmsg.payload = {\n    status: data.status || \"UNKNOWN\",\n    is_online: data.status === \"ONLINE\" ? 1 : 0,\n    device_id: data.device_id || \"humidityTwin01\"\n};\nreturn msg;",
+        "outputs": 1,
+        "x": 490,
+        "y": 600,
+        "wires": [
+            [
+                "influxdb_out_status"
+            ]
+        ]
+    },
+    {
+        "id": "influxdb_out_status",
+        "type": "influxdb out",
+        "z": "flow_main",
+        "influxdb": "influxdb_config",
+        "name": "Write Status to InfluxDB",
+        "measurement": "device_status",
+        "precision": "ms",
+        "retentionPolicy": "",
+        "database": "",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "co326_org",
+        "bucket": "co326_bucket",
+        "x": 750,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "debug_status",
+        "type": "debug",
+        "z": "flow_main",
+        "name": "Debug: Status",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload.status",
+        "statusType": "msg",
+        "x": 460,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "comment_control_pipeline",
+        "type": "comment",
+        "z": "flow_main",
+        "name": "\u00e2\u201d\u20ac\u00e2\u201d\u20ac Bidirectional Control (Digital Twin) \u00e2\u201d\u20ac\u00e2\u201d\u20ac",
+        "info": "",
+        "x": 220,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "inject_dehum_on",
+        "type": "inject",
+        "z": "flow_main",
+        "name": "Activate Dehumidifier",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"command\": \"DEHUMIDIFIER_ON\", \"source\": \"NodeRED_Dashboard\"}",
+        "payloadType": "json",
+        "x": 200,
+        "y": 780,
+        "wires": [
+            [
+                "mqtt_out_cmd"
+            ]
+        ]
+    },
+    {
+        "id": "inject_dehum_off",
+        "type": "inject",
+        "z": "flow_main",
+        "name": "Deactivate Dehumidifier",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"command\": \"DEHUMIDIFIER_OFF\", \"source\": \"NodeRED_Dashboard\"}",
+        "payloadType": "json",
+        "x": 210,
+        "y": 840,
+        "wires": [
+            [
+                "mqtt_out_cmd"
+            ]
+        ]
+    },
+    {
+        "id": "mqtt_out_cmd",
+        "type": "mqtt out",
+        "z": "flow_main",
+        "name": "MQTT: Send Command",
+        "topic": "spBv1.0/SmartFactory/DCMD/HumidityMonitoring/humidityTwin01",
+        "qos": "1",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "mqtt_broker_config",
+        "x": 490,
+        "y": 810,
+        "wires": []
+    }
+]
