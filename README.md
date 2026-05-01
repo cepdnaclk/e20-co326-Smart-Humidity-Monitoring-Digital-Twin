@@ -24,6 +24,8 @@ The system follows a **4-layer IIoT architecture** with:
 
 ## System Architecture
 
+![High Level Architecture](docs/images/architecture_diagram.png)
+<!--
 ```
 ┌───────────────────────────────────────────────────────────────────────┐
 │                    LAYER 1 — PERCEPTION LAYER                        │
@@ -70,7 +72,7 @@ The system follows a **4-layer IIoT architecture** with:
 │                                  │   • Dehumidifier control panel    │
 └───────────────────────────────────────────────────────────────────────┘
 ```
-
+-->
 ## MQTT Topics Used (Unified Namespace — Sparkplug B)
 
 ```
