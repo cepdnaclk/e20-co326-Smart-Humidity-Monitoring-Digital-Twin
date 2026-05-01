@@ -1,0 +1,410 @@
+{
+  "annotations": {
+    "list": []
+  },
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 1,
+  "id": null,
+  "links": [],
+  "liveNow": true,
+  "panels": [
+    {
+      "collapsed": false,
+      "gridPos": { "h": 1, "w": 24, "x": 0, "y": 0 },
+      "id": 100,
+      "title": "System Overview",
+      "type": "row"
+    },
+    {
+      "datasource": { "type": "influxdb", "uid": "influxdb_ds" },
+      "fieldConfig": {
+        "defaults": {
+          "color": { "mode": "thresholds" },
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              { "color": "green", "value": null },
+              { "color": "green", "value": 1 }
+            ]
+          },
+          "mappings": [
+            { "options": { "0": { "text": "OFFLINE", "color": "red" }, "1": { "text": "ONLINE", "color": "green" } }, "type": "value" }
+          ]
+        },
+        "overrides": []
+      },
+      "gridPos": { "h": 4, "w": 4, "x": 0, "y": 1 },
+      "id": 1,
+      "options": {
+        "colorMode": "background",
+        "graphMode": "none",
+        "justifyMode": "auto",
+        "textMode": "auto",
+        "reduceOptions": { "calcs": ["lastNotNull"], "fields": "", "values": false }
+      },
+      "title": "Device Status",
+      "type": "stat",
+      "targets": [
+        {
+          "query": "from(bucket: \"co326_bucket\")\n  |> range(start: -5m)\n  |> filter(fn: (r) => r._measurement == \"humidity_telemetry\")\n  |> filter(fn: (r) => r._field == \"is_online\")\n  |> last()",
+          "refId": "A"
+        }
+      ]
+    },
+    {
+      "datasource": { "type": "influxdb", "uid": "influxdb_ds" },
+      "fieldConfig": {
+        "defaults": {
+          "color": { "mode": "thresholds" },
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              { "color": "green", "value": null },
+              { "color": "yellow", "value": 60 },
+              { "color": "red", "value": 80 }
+            ]
+          },
+          "unit": "humidity",
+          "min": 0,
+          "max": 100
+        },
+        "overrides": []
+      },
+      "gridPos": { "h": 4, "w": 4, "x": 4, "y": 1 },
+      "id": 2,
+      "options": {
+        "reduceOptions": { "calcs": ["lastNotNull"], "fields": "", "values": false },
+        "showThresholdLabels": false,
+        "showThresholdMarkers": true
+      },
+      "title": "Current Humidity",
+      "type": "gauge",
+      "targets": [
+        {
+          "query": "from(bucket: \"co326_bucket\")\n  |> range(start: -5m)\n  |> filter(fn: (r) => r._measurement == \"humidity_telemetry\")\n  |> filter(fn: (r) => r._field == \"humidity\")\n  |> last()",
+          "refId": "A"
+        }
+      ]
+    },
+    {
+      "datasource": { "type": "influxdb", "uid": "influxdb_ds" },
+      "fieldConfig": {
+        "defaults": {
+          "color": { "mode": "thresholds" },
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              { "color": "blue", "value": null },
+              { "color": "green", "value": 20 },
+              { "color": "yellow", "value": 30 },
+              { "color": "red", "value": 35 }
+            ]
+          },
+          "unit": "celsius",
+          "min": 0,
+          "max": 50
+        },
+        "overrides": []
+      },
+      "gridPos": { "h": 4, "w": 4, "x": 8, "y": 1 },
+      "id": 3,
+      "options": {
+        "reduceOptions": { "calcs": ["lastNotNull"], "fields": "", "values": false },
+        "showThresholdLabels": false,
+        "showThresholdMarkers": true
+      },
+      "title": "Current Temperature",
+      "type": "gauge",
+      "targets": [
+        {
+          "query": "from(bucket: \"co326_bucket\")\n  |> range(start: -5m)\n  |> filter(fn: (r) => r._measurement == \"humidity_telemetry\")\n  |> filter(fn: (r) => r._field == \"temperature\")\n  |> last()",
+          "refId": "A"
+        }
+      ]
+    },
+    {
+      "datasource": { "type": "influxdb", "uid": "influxdb_ds" },
+      "fieldConfig": {
+        "defaults": {
+          "color": { "mode": "thresholds" },
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              { "color": "green", "value": null },
+              { "color": "yellow", "value": 3 },
+              { "color": "red", "value": 5 }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": { "h": 4, "w": 4, "x": 12, "y": 1 },
+      "id": 4,
+      "options": {
+        "colorMode": "background",
+        "graphMode": "area",
+        "justifyMode": "auto",
+        "textMode": "auto",
+        "reduceOptions": { "calcs": ["lastNotNull"], "fields": "", "values": false }
+      },
+      "title": "Anomaly Score",
+      "type": "stat",
+      "targets": [
+        {
+          "query": "from(bucket: \"co326_bucket\")\n  |> range(start: -5m)\n  |> filter(fn: (r) => r._measurement == \"humidity_telemetry\")\n  |> filter(fn: (r) => r._field == \"anomaly_score\")\n  |> last()",
+          "refId": "A"
+        }
+      ]
+    },
+    {
+      "datasource": { "type": "influxdb", "uid": "influxdb_ds" },
+      "fieldConfig": {
+        "defaults": {
+          "color": { "mode": "thresholds" },
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              { "color": "green", "value": null }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": { "h": 4, "w": 4, "x": 16, "y": 1 },
+      "id": 5,
+      "options": {
+        "colorMode": "background",
+        "graphMode": "none",
+        "justifyMode": "auto",
+        "textMode": "auto",
+        "reduceOptions": { "calcs": ["lastNotNull"], "fields": "", "values": false }
+      },
+      "title": "RUL Estimate",
+      "type": "stat",
+      "targets": [
+        {
+          "query": "from(bucket: \"co326_bucket\")\n  |> range(start: -5m)\n  |> filter(fn: (r) => r._measurement == \"humidity_rul\")\n  |> filter(fn: (r) => r._field == \"rul_seconds\")\n  |> last()",
+          "refId": "A"
+        }
+      ]
+    },
+    {
+      "datasource": { "type": "influxdb", "uid": "influxdb_ds" },
+      "fieldConfig": {
+        "defaults": {
+          "color": { "mode": "thresholds" },
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              { "color": "orange", "value": null },
+              { "color": "green", "value": 1 }
+            ]
+          },
+          "mappings": [
+            { "options": { "0": { "text": "OFF", "color": "gray" }, "1": { "text": "ON", "color": "blue" } }, "type": "value" }
+          ]
+        },
+        "overrides": []
+      },
+      "gridPos": { "h": 4, "w": 4, "x": 20, "y": 1 },
+      "id": 6,
+      "options": {
+        "colorMode": "background",
+        "graphMode": "none",
+        "justifyMode": "auto",
+        "textMode": "auto",
+        "reduceOptions": { "calcs": ["lastNotNull"], "fields": "", "values": false }
+      },
+      "title": "Dehumidifier State",
+      "type": "stat",
+      "targets": [
+        {
+          "query": "from(bucket: \"co326_bucket\")\n  |> range(start: -5m)\n  |> filter(fn: (r) => r._measurement == \"humidity_telemetry\")\n  |> filter(fn: (r) => r._field == \"dehumidifier_state\")\n  |> last()",
+          "refId": "A"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "gridPos": { "h": 1, "w": 24, "x": 0, "y": 5 },
+      "id": 101,
+      "title": "Real-Time Monitoring",
+      "type": "row"
+    },
+    {
+      "datasource": { "type": "influxdb", "uid": "influxdb_ds" },
+      "fieldConfig": {
+        "defaults": {
+          "color": { "mode": "palette-classic" },
+          "custom": {
+            "axisCenteredZero": false,
+            "axisLabel": "Humidity (%RH)",
+            "drawStyle": "line",
+            "fillOpacity": 15,
+            "lineInterpolation": "smooth",
+            "lineWidth": 2,
+            "pointSize": 3,
+            "showPoints": "auto"
+          },
+          "unit": "humidity"
+        },
+        "overrides": [
+          {
+            "matcher": { "id": "byName", "options": "ML Prediction" },
+            "properties": [
+              { "id": "custom.lineStyle", "value": { "dash": [10, 10], "fill": "dash" } },
+              { "id": "color", "value": { "fixedColor": "orange", "mode": "fixed" } }
+            ]
+          }
+        ]
+      },
+      "gridPos": { "h": 8, "w": 12, "x": 0, "y": 6 },
+      "id": 7,
+      "options": {
+        "legend": { "calcs": ["mean", "lastNotNull"], "displayMode": "table", "placement": "bottom" },
+        "tooltip": { "mode": "multi", "sort": "none" }
+      },
+      "title": "Humidity — Actual vs ML Prediction",
+      "type": "timeseries",
+      "targets": [
+        {
+          "query": "from(bucket: \"co326_bucket\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"humidity_telemetry\")\n  |> filter(fn: (r) => r._field == \"humidity\")\n  |> aggregateWindow(every: v.windowPeriod, fn: mean, createEmpty: false)",
+          "refId": "A",
+          "alias": "Actual Humidity"
+        },
+        {
+          "query": "from(bucket: \"co326_bucket\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"humidity_telemetry\")\n  |> filter(fn: (r) => r._field == \"ml_prediction\")\n  |> aggregateWindow(every: v.windowPeriod, fn: mean, createEmpty: false)",
+          "refId": "B",
+          "alias": "ML Prediction"
+        }
+      ]
+    },
+    {
+      "datasource": { "type": "influxdb", "uid": "influxdb_ds" },
+      "fieldConfig": {
+        "defaults": {
+          "color": { "mode": "palette-classic" },
+          "custom": {
+            "axisCenteredZero": false,
+            "axisLabel": "Temperature (°C)",
+            "drawStyle": "line",
+            "fillOpacity": 15,
+            "lineInterpolation": "smooth",
+            "lineWidth": 2,
+            "pointSize": 3,
+            "showPoints": "auto"
+          },
+          "unit": "celsius"
+        },
+        "overrides": []
+      },
+      "gridPos": { "h": 8, "w": 12, "x": 12, "y": 6 },
+      "id": 8,
+      "options": {
+        "legend": { "calcs": ["mean", "lastNotNull"], "displayMode": "table", "placement": "bottom" },
+        "tooltip": { "mode": "multi", "sort": "none" }
+      },
+      "title": "Temperature (°C)",
+      "type": "timeseries",
+      "targets": [
+        {
+          "query": "from(bucket: \"co326_bucket\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"humidity_telemetry\")\n  |> filter(fn: (r) => r._field == \"temperature\")\n  |> aggregateWindow(every: v.windowPeriod, fn: mean, createEmpty: false)",
+          "refId": "A"
+        }
+      ]
+    },
+    {
+      "collapsed": false,
+      "gridPos": { "h": 1, "w": 24, "x": 0, "y": 14 },
+      "id": 102,
+      "title": "Edge AI Analytics",
+      "type": "row"
+    },
+    {
+      "datasource": { "type": "influxdb", "uid": "influxdb_ds" },
+      "fieldConfig": {
+        "defaults": {
+          "color": { "mode": "continuous-GrYlRd" },
+          "custom": {
+            "axisCenteredZero": false,
+            "axisLabel": "Anomaly Score",
+            "drawStyle": "bars",
+            "fillOpacity": 80,
+            "lineWidth": 1,
+            "pointSize": 5,
+            "showPoints": "never",
+            "thresholdsStyle": { "mode": "line+area" }
+          },
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              { "color": "transparent", "value": null },
+              { "color": "rgba(255, 200, 0, 0.1)", "value": 3 },
+              { "color": "rgba(255, 0, 0, 0.15)", "value": 5 }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": { "h": 8, "w": 12, "x": 0, "y": 15 },
+      "id": 9,
+      "options": {
+        "legend": { "calcs": ["mean", "max", "lastNotNull"], "displayMode": "table", "placement": "bottom" },
+        "tooltip": { "mode": "single", "sort": "none" }
+      },
+      "title": "Anomaly Score (Edge AI Detection)",
+      "type": "timeseries",
+      "targets": [
+        {
+          "query": "from(bucket: \"co326_bucket\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"humidity_telemetry\")\n  |> filter(fn: (r) => r._field == \"anomaly_score\")\n  |> aggregateWindow(every: v.windowPeriod, fn: mean, createEmpty: false)",
+          "refId": "A"
+        }
+      ]
+    },
+    {
+      "datasource": { "type": "influxdb", "uid": "influxdb_ds" },
+      "fieldConfig": {
+        "defaults": {
+          "color": { "mode": "palette-classic" },
+          "custom": {
+            "axisCenteredZero": false,
+            "axisLabel": "RUL (seconds)",
+            "drawStyle": "line",
+            "fillOpacity": 10,
+            "lineInterpolation": "smooth",
+            "lineWidth": 2,
+            "pointSize": 5,
+            "showPoints": "auto"
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": { "h": 8, "w": 12, "x": 12, "y": 15 },
+      "id": 10,
+      "options": {
+        "legend": { "calcs": ["mean", "lastNotNull"], "displayMode": "table", "placement": "bottom" },
+        "tooltip": { "mode": "single", "sort": "none" }
+      },
+      "title": "Remaining Useful Life (RUL) Estimation",
+      "type": "timeseries",
+      "targets": [
+        {
+          "query": "from(bucket: \"co326_bucket\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"humidity_rul\")\n  |> filter(fn: (r) => r._field == \"rul_seconds\")\n  |> filter(fn: (r) => r._value >= 0)\n  |> aggregateWindow(every: v.windowPeriod, fn: mean, createEmpty: false)",
+          "refId": "A"
+        }
+      ]
+    }
+  ],
+  "refresh": "5s",
+  "schemaVersion": 38,
+  "style": "dark",
+  "tags": ["co326", "digital-twin", "humidity", "iiot"],
+  "templating": { "list": [] },
+  "time": { "from": "now-15m", "to": "now" },
+  "timepicker": {},
+  "timezone": "",
+  "title": "Smart Humidity Monitoring — Digital Twin",
+  "uid": "co326-humidity-dt",
+  "version": 1
+}
