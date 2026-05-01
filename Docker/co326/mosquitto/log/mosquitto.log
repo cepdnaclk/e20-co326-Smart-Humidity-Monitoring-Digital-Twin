@@ -1,0 +1,1153 @@
+1777181796: mosquitto version 2.1.2 starting
+1777181796: Config loaded from /mosquitto/config/mosquitto.conf.
+1777181796: Bridge support available.
+1777181796: Persistence support available.
+1777181796: TLS support available.
+1777181796: TLS-PSK support available.
+1777181796: Websockets support available.
+1777181796: Opening ipv4 listen socket on port 1883.
+1777181796: Opening ipv6 listen socket on port 1883.
+1777181796: mosquitto version 2.1.2 running
+1777183597: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777185014: mosquitto version 2.1.2 terminating
+1777185014: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777537329: mosquitto version 2.1.2 starting
+1777537329: Config loaded from /mosquitto/config/mosquitto.conf.
+1777537329: Bridge support available.
+1777537329: Persistence support available.
+1777537329: TLS support available.
+1777537329: TLS-PSK support available.
+1777537329: Websockets support available.
+1777537329: Opening ipv4 listen socket on port 1883.
+1777537329: Opening ipv6 listen socket on port 1883.
+1777537329: mosquitto version 2.1.2 running
+1777537375: New connection from 172.19.0.1:55360 on port 1883.
+1777537375: New client connected from 172.19.0.1:55360 as humidityTwin01_publisher (p5, c1, k60).
+1777537376: Client humidityTwin01_publisher [172.19.0.1:55360] disconnected: connection closed by client.
+1777537412: New connection from 172.19.0.1:49004 on port 1883.
+1777537412: New client connected from 172.19.0.1:49004 as humidityTwin01_publisher (p5, c1, k60).
+1777537509: Client humidityTwin01_publisher [172.19.0.1:49004] disconnected: connection closed by client.
+1777537523: New connection from 172.19.0.1:35080 on port 1883.
+1777537523: New client connected from 172.19.0.1:35080 as humidityTwin01_publisher (p5, c1, k60).
+1777537874: New connection from 172.19.0.5:43758 on port 1883.
+1777537874: New client connected from 172.19.0.5:43758 as nodered_client (p4, c1, k60).
+1777538272: Client nodered_client [172.19.0.5:43758] disconnected.
+1777538272: New connection from 172.19.0.5:44808 on port 1883.
+1777538272: New client connected from 172.19.0.5:44808 as nodered_client (p4, c1, k60).
+1777539129: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777540930: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777540930: Error saving in-memory database, unable to replace /mosquitto/data//mosquitto.db by tmp file  /mosquitto/data//mosquitto.db.new, error Permission denied
+1777542731: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777543929: Client humidityTwin01_publisher [172.19.0.1:35080] disconnected: connection closed by client.
+1777544634: mosquitto version 2.1.2 starting
+1777544634: Config loaded from /mosquitto/config/mosquitto.conf.
+1777544634: Bridge support available.
+1777544634: Persistence support available.
+1777544634: TLS support available.
+1777544634: TLS-PSK support available.
+1777544634: Websockets support available.
+1777544634: Opening ipv4 listen socket on port 1883.
+1777544634: Opening ipv6 listen socket on port 1883.
+1777544634: mosquitto version 2.1.2 running
+1777544642: New connection from 172.19.0.2:50320 on port 1883.
+1777544642: New client connected from 172.19.0.2:50320 as nodered_client (p4, c1, k60).
+1777544823: Client nodered_client [172.19.0.2:50320] disconnected.
+1777544823: mosquitto version 2.1.2 terminating
+1777544823: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777577265: mosquitto version 2.1.2 starting
+1777577265: Config loaded from /mosquitto/config/mosquitto.conf.
+1777577265: Bridge support available.
+1777577265: Persistence support available.
+1777577265: TLS support available.
+1777577265: TLS-PSK support available.
+1777577265: Websockets support available.
+1777577265: Opening ipv4 listen socket on port 1883.
+1777577265: Opening ipv6 listen socket on port 1883.
+1777577265: mosquitto version 2.1.2 running
+1777577268: New connection from 172.19.0.5:60604 on port 1883.
+1777577268: New client connected from 172.19.0.5:60604 as nodered_client (p4, c1, k60).
+1777577393: Client nodered_client [172.19.0.5:60604] disconnected.
+1777577393: New connection from 172.19.0.5:33754 on port 1883.
+1777577393: New client connected from 172.19.0.5:33754 as nodered_client (p4, c1, k60).
+1777577428: New connection from 172.19.0.1:44750 on port 1883.
+1777577428: New client connected from 172.19.0.1:44750 as humidityTwin01_publisher (p5, c1, k60).
+1777577896: Client nodered_client [172.19.0.5:33754] disconnected.
+1777577896: New connection from 172.19.0.5:47742 on port 1883.
+1777577896: New client connected from 172.19.0.5:47742 as nodered_client (p4, c1, k60).
+1777578913: Client nodered_client [172.19.0.5:47742] disconnected.
+1777578913: New connection from 172.19.0.5:49216 on port 1883.
+1777578913: New client connected from 172.19.0.5:49216 as nodered_client (p4, c1, k60).
+1777579066: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777579184: New connection from 172.19.0.1:34520 on port 1883.
+1777579184: New client connected from 172.19.0.1:34520 as test_cmd (p4, c1, k60).
+1777579184: Client test_cmd [172.19.0.1:34520] disconnected.
+1777579220: New connection from 172.19.0.1:33504 on port 1883.
+1777579220: New client connected from 172.19.0.1:33504 as test_cmd2 (p4, c1, k60).
+1777579220: Client test_cmd2 [172.19.0.1:33504] disconnected.
+1777580271: Client nodered_client [172.19.0.5:49216] disconnected.
+1777580271: New connection from 172.19.0.5:43328 on port 1883.
+1777580271: New client connected from 172.19.0.5:43328 as nodered_client (p4, c1, k60).
+1777580299: New connection from 172.19.0.1:60460 on port 1883.
+1777580299: Client humidityTwin01_publisher [172.19.0.1:44750] disconnected: session taken over.
+1777580299: New client connected from 172.19.0.1:60460 as humidityTwin01_publisher (p5, c1, k60).
+1777580300: New connection from 172.19.0.1:60474 on port 1883.
+1777580300: Client humidityTwin01_publisher [172.19.0.1:60460] disconnected: session taken over.
+1777580300: New client connected from 172.19.0.1:60474 as humidityTwin01_publisher (p5, c0, k60).
+1777580301: New connection from 172.19.0.1:60476 on port 1883.
+1777580301: Client humidityTwin01_publisher [172.19.0.1:60474] disconnected: session taken over.
+1777580301: New client connected from 172.19.0.1:60476 as humidityTwin01_publisher (p5, c0, k60).
+1777580302: New connection from 172.19.0.1:60490 on port 1883.
+1777580302: Client humidityTwin01_publisher [172.19.0.1:60476] disconnected: session taken over.
+1777580302: New client connected from 172.19.0.1:60490 as humidityTwin01_publisher (p5, c0, k60).
+1777580303: New connection from 172.19.0.1:38682 on port 1883.
+1777580303: Client humidityTwin01_publisher [172.19.0.1:60490] disconnected: session taken over.
+1777580303: New client connected from 172.19.0.1:38682 as humidityTwin01_publisher (p5, c0, k60).
+1777580304: New connection from 172.19.0.1:38690 on port 1883.
+1777580304: Client humidityTwin01_publisher [172.19.0.1:38682] disconnected: session taken over.
+1777580304: New client connected from 172.19.0.1:38690 as humidityTwin01_publisher (p5, c0, k60).
+1777580305: New connection from 172.19.0.1:38704 on port 1883.
+1777580305: Client humidityTwin01_publisher [172.19.0.1:38690] disconnected: session taken over.
+1777580305: New client connected from 172.19.0.1:38704 as humidityTwin01_publisher (p5, c0, k60).
+1777580306: New connection from 172.19.0.1:38708 on port 1883.
+1777580306: Client humidityTwin01_publisher [172.19.0.1:38704] disconnected: session taken over.
+1777580306: New client connected from 172.19.0.1:38708 as humidityTwin01_publisher (p5, c0, k60).
+1777580307: New connection from 172.19.0.1:38716 on port 1883.
+1777580307: Client humidityTwin01_publisher [172.19.0.1:38708] disconnected: session taken over.
+1777580307: New client connected from 172.19.0.1:38716 as humidityTwin01_publisher (p5, c0, k60).
+1777580308: New connection from 172.19.0.1:38726 on port 1883.
+1777580308: Client humidityTwin01_publisher [172.19.0.1:38716] disconnected: session taken over.
+1777580308: New client connected from 172.19.0.1:38726 as humidityTwin01_publisher (p5, c0, k60).
+1777580309: New connection from 172.19.0.1:38730 on port 1883.
+1777580309: Client humidityTwin01_publisher [172.19.0.1:38726] disconnected: session taken over.
+1777580309: New client connected from 172.19.0.1:38730 as humidityTwin01_publisher (p5, c0, k60).
+1777580310: New connection from 172.19.0.1:38734 on port 1883.
+1777580310: Client humidityTwin01_publisher [172.19.0.1:38730] disconnected: session taken over.
+1777580310: New client connected from 172.19.0.1:38734 as humidityTwin01_publisher (p5, c0, k60).
+1777580311: New connection from 172.19.0.1:38738 on port 1883.
+1777580311: Client humidityTwin01_publisher [172.19.0.1:38734] disconnected: session taken over.
+1777580311: New client connected from 172.19.0.1:38738 as humidityTwin01_publisher (p5, c0, k60).
+1777580312: New connection from 172.19.0.1:38740 on port 1883.
+1777580312: Client humidityTwin01_publisher [172.19.0.1:38738] disconnected: session taken over.
+1777580312: New client connected from 172.19.0.1:38740 as humidityTwin01_publisher (p5, c0, k60).
+1777580313: New connection from 172.19.0.1:54974 on port 1883.
+1777580313: Client humidityTwin01_publisher [172.19.0.1:38740] disconnected: session taken over.
+1777580313: New client connected from 172.19.0.1:54974 as humidityTwin01_publisher (p5, c0, k60).
+1777580314: New connection from 172.19.0.1:54986 on port 1883.
+1777580314: Client humidityTwin01_publisher [172.19.0.1:54974] disconnected: session taken over.
+1777580314: New client connected from 172.19.0.1:54986 as humidityTwin01_publisher (p5, c0, k60).
+1777580315: New connection from 172.19.0.1:54996 on port 1883.
+1777580315: Client humidityTwin01_publisher [172.19.0.1:54986] disconnected: session taken over.
+1777580315: New client connected from 172.19.0.1:54996 as humidityTwin01_publisher (p5, c0, k60).
+1777580316: New connection from 172.19.0.1:55006 on port 1883.
+1777580316: Client humidityTwin01_publisher [172.19.0.1:54996] disconnected: session taken over.
+1777580316: New client connected from 172.19.0.1:55006 as humidityTwin01_publisher (p5, c0, k60).
+1777580317: New connection from 172.19.0.1:55010 on port 1883.
+1777580317: Client humidityTwin01_publisher [172.19.0.1:55006] disconnected: session taken over.
+1777580317: New client connected from 172.19.0.1:55010 as humidityTwin01_publisher (p5, c0, k60).
+1777580318: New connection from 172.19.0.1:55020 on port 1883.
+1777580318: Client humidityTwin01_publisher [172.19.0.1:55010] disconnected: session taken over.
+1777580318: New client connected from 172.19.0.1:55020 as humidityTwin01_publisher (p5, c0, k60).
+1777580319: New connection from 172.19.0.1:55036 on port 1883.
+1777580319: Client humidityTwin01_publisher [172.19.0.1:55020] disconnected: session taken over.
+1777580319: New client connected from 172.19.0.1:55036 as humidityTwin01_publisher (p5, c0, k60).
+1777580320: New connection from 172.19.0.1:55042 on port 1883.
+1777580320: Client humidityTwin01_publisher [172.19.0.1:55036] disconnected: session taken over.
+1777580320: New client connected from 172.19.0.1:55042 as humidityTwin01_publisher (p5, c0, k60).
+1777580321: New connection from 172.19.0.1:55046 on port 1883.
+1777580321: Client humidityTwin01_publisher [172.19.0.1:55042] disconnected: session taken over.
+1777580321: New client connected from 172.19.0.1:55046 as humidityTwin01_publisher (p5, c0, k60).
+1777580322: New connection from 172.19.0.1:55050 on port 1883.
+1777580322: Client humidityTwin01_publisher [172.19.0.1:55046] disconnected: session taken over.
+1777580322: New client connected from 172.19.0.1:55050 as humidityTwin01_publisher (p5, c0, k60).
+1777580323: New connection from 172.19.0.1:45342 on port 1883.
+1777580323: Client humidityTwin01_publisher [172.19.0.1:55050] disconnected: session taken over.
+1777580323: New client connected from 172.19.0.1:45342 as humidityTwin01_publisher (p5, c0, k60).
+1777580324: New connection from 172.19.0.1:45344 on port 1883.
+1777580324: Client humidityTwin01_publisher [172.19.0.1:45342] disconnected: session taken over.
+1777580324: New client connected from 172.19.0.1:45344 as humidityTwin01_publisher (p5, c0, k60).
+1777580325: New connection from 172.19.0.1:45354 on port 1883.
+1777580325: Client humidityTwin01_publisher [172.19.0.1:45344] disconnected: session taken over.
+1777580325: New client connected from 172.19.0.1:45354 as humidityTwin01_publisher (p5, c0, k60).
+1777580326: New connection from 172.19.0.1:45356 on port 1883.
+1777580326: Client humidityTwin01_publisher [172.19.0.1:45354] disconnected: session taken over.
+1777580326: New client connected from 172.19.0.1:45356 as humidityTwin01_publisher (p5, c0, k60).
+1777580327: New connection from 172.19.0.1:45362 on port 1883.
+1777580327: Client humidityTwin01_publisher [172.19.0.1:45356] disconnected: session taken over.
+1777580327: New client connected from 172.19.0.1:45362 as humidityTwin01_publisher (p5, c0, k60).
+1777580328: New connection from 172.19.0.1:45372 on port 1883.
+1777580328: Client humidityTwin01_publisher [172.19.0.1:45362] disconnected: session taken over.
+1777580328: New client connected from 172.19.0.1:45372 as humidityTwin01_publisher (p5, c0, k60).
+1777580329: New connection from 172.19.0.1:45388 on port 1883.
+1777580329: Client humidityTwin01_publisher [172.19.0.1:45372] disconnected: session taken over.
+1777580329: New client connected from 172.19.0.1:45388 as humidityTwin01_publisher (p5, c0, k60).
+1777580330: New connection from 172.19.0.1:45398 on port 1883.
+1777580330: Client humidityTwin01_publisher [172.19.0.1:45388] disconnected: session taken over.
+1777580330: New client connected from 172.19.0.1:45398 as humidityTwin01_publisher (p5, c0, k60).
+1777580331: New connection from 172.19.0.1:45406 on port 1883.
+1777580331: Client humidityTwin01_publisher [172.19.0.1:45398] disconnected: session taken over.
+1777580331: New client connected from 172.19.0.1:45406 as humidityTwin01_publisher (p5, c0, k60).
+1777580332: New connection from 172.19.0.1:45420 on port 1883.
+1777580332: Client humidityTwin01_publisher [172.19.0.1:45406] disconnected: session taken over.
+1777580332: New client connected from 172.19.0.1:45420 as humidityTwin01_publisher (p5, c0, k60).
+1777580333: New connection from 172.19.0.1:46174 on port 1883.
+1777580333: Client humidityTwin01_publisher [172.19.0.1:45420] disconnected: session taken over.
+1777580333: New client connected from 172.19.0.1:46174 as humidityTwin01_publisher (p5, c0, k60).
+1777580334: New connection from 172.19.0.1:46182 on port 1883.
+1777580334: Client humidityTwin01_publisher [172.19.0.1:46174] disconnected: session taken over.
+1777580334: New client connected from 172.19.0.1:46182 as humidityTwin01_publisher (p5, c0, k60).
+1777580335: New connection from 172.19.0.1:46188 on port 1883.
+1777580335: Client humidityTwin01_publisher [172.19.0.1:46182] disconnected: session taken over.
+1777580335: New client connected from 172.19.0.1:46188 as humidityTwin01_publisher (p5, c0, k60).
+1777580336: New connection from 172.19.0.1:46202 on port 1883.
+1777580337: Client humidityTwin01_publisher [172.19.0.1:46188] disconnected: session taken over.
+1777580337: New client connected from 172.19.0.1:46202 as humidityTwin01_publisher (p5, c0, k60).
+1777580338: New connection from 172.19.0.1:46216 on port 1883.
+1777580338: Client humidityTwin01_publisher [172.19.0.1:46202] disconnected: session taken over.
+1777580338: New client connected from 172.19.0.1:46216 as humidityTwin01_publisher (p5, c0, k60).
+1777580339: New connection from 172.19.0.1:46228 on port 1883.
+1777580339: Client humidityTwin01_publisher [172.19.0.1:46216] disconnected: session taken over.
+1777580339: New client connected from 172.19.0.1:46228 as humidityTwin01_publisher (p5, c0, k60).
+1777580340: New connection from 172.19.0.1:46230 on port 1883.
+1777580340: Client humidityTwin01_publisher [172.19.0.1:46228] disconnected: session taken over.
+1777580340: New client connected from 172.19.0.1:46230 as humidityTwin01_publisher (p5, c0, k60).
+1777580341: New connection from 172.19.0.1:46236 on port 1883.
+1777580341: Client humidityTwin01_publisher [172.19.0.1:46230] disconnected: session taken over.
+1777580341: New client connected from 172.19.0.1:46236 as humidityTwin01_publisher (p5, c0, k60).
+1777580342: New connection from 172.19.0.1:47808 on port 1883.
+1777580342: Client humidityTwin01_publisher [172.19.0.1:46236] disconnected: session taken over.
+1777580342: New client connected from 172.19.0.1:47808 as humidityTwin01_publisher (p5, c0, k60).
+1777580343: New connection from 172.19.0.1:47820 on port 1883.
+1777580344: Client humidityTwin01_publisher [172.19.0.1:47808] disconnected: session taken over.
+1777580344: New client connected from 172.19.0.1:47820 as humidityTwin01_publisher (p5, c0, k60).
+1777580345: New connection from 172.19.0.1:47826 on port 1883.
+1777580345: Client humidityTwin01_publisher [172.19.0.1:47820] disconnected: session taken over.
+1777580345: New client connected from 172.19.0.1:47826 as humidityTwin01_publisher (p5, c0, k60).
+1777580346: New connection from 172.19.0.1:47832 on port 1883.
+1777580346: Client humidityTwin01_publisher [172.19.0.1:47826] disconnected: session taken over.
+1777580346: New client connected from 172.19.0.1:47832 as humidityTwin01_publisher (p5, c0, k60).
+1777580347: New connection from 172.19.0.1:47844 on port 1883.
+1777580347: Client humidityTwin01_publisher [172.19.0.1:47832] disconnected: session taken over.
+1777580347: New client connected from 172.19.0.1:47844 as humidityTwin01_publisher (p5, c0, k60).
+1777580348: New connection from 172.19.0.1:47846 on port 1883.
+1777580348: Client humidityTwin01_publisher [172.19.0.1:47844] disconnected: session taken over.
+1777580348: New client connected from 172.19.0.1:47846 as humidityTwin01_publisher (p5, c0, k60).
+1777580349: New connection from 172.19.0.1:47856 on port 1883.
+1777580349: Client humidityTwin01_publisher [172.19.0.1:47846] disconnected: session taken over.
+1777580349: New client connected from 172.19.0.1:47856 as humidityTwin01_publisher (p5, c0, k60).
+1777580350: New connection from 172.19.0.1:47872 on port 1883.
+1777580350: Client humidityTwin01_publisher [172.19.0.1:47856] disconnected: session taken over.
+1777580350: New client connected from 172.19.0.1:47872 as humidityTwin01_publisher (p5, c0, k60).
+1777580351: New connection from 172.19.0.1:47888 on port 1883.
+1777580351: Client humidityTwin01_publisher [172.19.0.1:47872] disconnected: session taken over.
+1777580351: New client connected from 172.19.0.1:47888 as humidityTwin01_publisher (p5, c0, k60).
+1777580352: New connection from 172.19.0.1:47904 on port 1883.
+1777580352: Client humidityTwin01_publisher [172.19.0.1:47888] disconnected: session taken over.
+1777580352: New client connected from 172.19.0.1:47904 as humidityTwin01_publisher (p5, c0, k60).
+1777580353: New connection from 172.19.0.1:49086 on port 1883.
+1777580353: Client humidityTwin01_publisher [172.19.0.1:47904] disconnected: session taken over.
+1777580353: New client connected from 172.19.0.1:49086 as humidityTwin01_publisher (p5, c0, k60).
+1777580354: New connection from 172.19.0.1:49088 on port 1883.
+1777580354: Client humidityTwin01_publisher [172.19.0.1:49086] disconnected: session taken over.
+1777580354: New client connected from 172.19.0.1:49088 as humidityTwin01_publisher (p5, c0, k60).
+1777580355: New connection from 172.19.0.1:49098 on port 1883.
+1777580355: Client humidityTwin01_publisher [172.19.0.1:49088] disconnected: session taken over.
+1777580355: New client connected from 172.19.0.1:49098 as humidityTwin01_publisher (p5, c0, k60).
+1777580356: New connection from 172.19.0.1:49112 on port 1883.
+1777580356: Client humidityTwin01_publisher [172.19.0.1:49098] disconnected: session taken over.
+1777580356: New client connected from 172.19.0.1:49112 as humidityTwin01_publisher (p5, c0, k60).
+1777580357: New connection from 172.19.0.1:49126 on port 1883.
+1777580357: Client humidityTwin01_publisher [172.19.0.1:49112] disconnected: session taken over.
+1777580357: New client connected from 172.19.0.1:49126 as humidityTwin01_publisher (p5, c0, k60).
+1777580358: New connection from 172.19.0.1:49140 on port 1883.
+1777580358: Client humidityTwin01_publisher [172.19.0.1:49126] disconnected: session taken over.
+1777580358: New client connected from 172.19.0.1:49140 as humidityTwin01_publisher (p5, c0, k60).
+1777580359: New connection from 172.19.0.1:49154 on port 1883.
+1777580359: Client humidityTwin01_publisher [172.19.0.1:49140] disconnected: session taken over.
+1777580359: New client connected from 172.19.0.1:49154 as humidityTwin01_publisher (p5, c0, k60).
+1777580360: New connection from 172.19.0.1:49158 on port 1883.
+1777580360: Client humidityTwin01_publisher [172.19.0.1:49154] disconnected: session taken over.
+1777580360: New client connected from 172.19.0.1:49158 as humidityTwin01_publisher (p5, c0, k60).
+1777580361: New connection from 172.19.0.1:49164 on port 1883.
+1777580361: Client humidityTwin01_publisher [172.19.0.1:49158] disconnected: session taken over.
+1777580361: New client connected from 172.19.0.1:49164 as humidityTwin01_publisher (p5, c0, k60).
+1777580362: New connection from 172.19.0.1:49174 on port 1883.
+1777580362: Client humidityTwin01_publisher [172.19.0.1:49164] disconnected: session taken over.
+1777580362: New client connected from 172.19.0.1:49174 as humidityTwin01_publisher (p5, c0, k60).
+1777580363: New connection from 172.19.0.1:41846 on port 1883.
+1777580363: Client humidityTwin01_publisher [172.19.0.1:49174] disconnected: session taken over.
+1777580363: New client connected from 172.19.0.1:41846 as humidityTwin01_publisher (p5, c0, k60).
+1777580364: New connection from 172.19.0.1:41858 on port 1883.
+1777580364: Client humidityTwin01_publisher [172.19.0.1:41846] disconnected: session taken over.
+1777580364: New client connected from 172.19.0.1:41858 as humidityTwin01_publisher (p5, c0, k60).
+1777580365: New connection from 172.19.0.1:41864 on port 1883.
+1777580365: Client humidityTwin01_publisher [172.19.0.1:41858] disconnected: session taken over.
+1777580365: New client connected from 172.19.0.1:41864 as humidityTwin01_publisher (p5, c0, k60).
+1777580366: New connection from 172.19.0.1:41874 on port 1883.
+1777580366: Client humidityTwin01_publisher [172.19.0.1:41864] disconnected: session taken over.
+1777580366: New client connected from 172.19.0.1:41874 as humidityTwin01_publisher (p5, c0, k60).
+1777580367: New connection from 172.19.0.1:41884 on port 1883.
+1777580367: Client humidityTwin01_publisher [172.19.0.1:41874] disconnected: session taken over.
+1777580367: New client connected from 172.19.0.1:41884 as humidityTwin01_publisher (p5, c0, k60).
+1777580368: New connection from 172.19.0.1:41890 on port 1883.
+1777580368: Client humidityTwin01_publisher [172.19.0.1:41884] disconnected: session taken over.
+1777580368: New client connected from 172.19.0.1:41890 as humidityTwin01_publisher (p5, c0, k60).
+1777580369: New connection from 172.19.0.1:41898 on port 1883.
+1777580369: Client humidityTwin01_publisher [172.19.0.1:41890] disconnected: session taken over.
+1777580369: New client connected from 172.19.0.1:41898 as humidityTwin01_publisher (p5, c0, k60).
+1777580370: New connection from 172.19.0.1:41910 on port 1883.
+1777580370: Client humidityTwin01_publisher [172.19.0.1:41898] disconnected: session taken over.
+1777580370: New client connected from 172.19.0.1:41910 as humidityTwin01_publisher (p5, c0, k60).
+1777580371: New connection from 172.19.0.1:41916 on port 1883.
+1777580371: Client humidityTwin01_publisher [172.19.0.1:41910] disconnected: session taken over.
+1777580371: New client connected from 172.19.0.1:41916 as humidityTwin01_publisher (p5, c0, k60).
+1777580372: New connection from 172.19.0.1:41924 on port 1883.
+1777580372: Client humidityTwin01_publisher [172.19.0.1:41916] disconnected: session taken over.
+1777580372: New client connected from 172.19.0.1:41924 as humidityTwin01_publisher (p5, c0, k60).
+1777580373: New connection from 172.19.0.1:42188 on port 1883.
+1777580373: Client humidityTwin01_publisher [172.19.0.1:41924] disconnected: session taken over.
+1777580373: New client connected from 172.19.0.1:42188 as humidityTwin01_publisher (p5, c0, k60).
+1777580374: New connection from 172.19.0.1:42192 on port 1883.
+1777580374: Client humidityTwin01_publisher [172.19.0.1:42188] disconnected: session taken over.
+1777580374: New client connected from 172.19.0.1:42192 as humidityTwin01_publisher (p5, c0, k60).
+1777580375: New connection from 172.19.0.1:42204 on port 1883.
+1777580375: Client humidityTwin01_publisher [172.19.0.1:42192] disconnected: session taken over.
+1777580375: New client connected from 172.19.0.1:42204 as humidityTwin01_publisher (p5, c0, k60).
+1777580376: New connection from 172.19.0.1:42220 on port 1883.
+1777580376: Client humidityTwin01_publisher [172.19.0.1:42204] disconnected: session taken over.
+1777580376: New client connected from 172.19.0.1:42220 as humidityTwin01_publisher (p5, c0, k60).
+1777580377: New connection from 172.19.0.1:42230 on port 1883.
+1777580377: Client humidityTwin01_publisher [172.19.0.1:42220] disconnected: session taken over.
+1777580377: New client connected from 172.19.0.1:42230 as humidityTwin01_publisher (p5, c0, k60).
+1777580378: New connection from 172.19.0.1:42232 on port 1883.
+1777580378: Client humidityTwin01_publisher [172.19.0.1:42230] disconnected: session taken over.
+1777580378: New client connected from 172.19.0.1:42232 as humidityTwin01_publisher (p5, c0, k60).
+1777580379: New connection from 172.19.0.1:42246 on port 1883.
+1777580379: Client humidityTwin01_publisher [172.19.0.1:42232] disconnected: session taken over.
+1777580379: New client connected from 172.19.0.1:42246 as humidityTwin01_publisher (p5, c0, k60).
+1777580380: New connection from 172.19.0.1:42250 on port 1883.
+1777580380: Client humidityTwin01_publisher [172.19.0.1:42246] disconnected: session taken over.
+1777580380: New client connected from 172.19.0.1:42250 as humidityTwin01_publisher (p5, c0, k60).
+1777580381: New connection from 172.19.0.1:42254 on port 1883.
+1777580381: Client humidityTwin01_publisher [172.19.0.1:42250] disconnected: session taken over.
+1777580381: New client connected from 172.19.0.1:42254 as humidityTwin01_publisher (p5, c0, k60).
+1777580382: New connection from 172.19.0.1:42268 on port 1883.
+1777580382: Client humidityTwin01_publisher [172.19.0.1:42254] disconnected: session taken over.
+1777580382: New client connected from 172.19.0.1:42268 as humidityTwin01_publisher (p5, c0, k60).
+1777580383: New connection from 172.19.0.1:57008 on port 1883.
+1777580383: Client humidityTwin01_publisher [172.19.0.1:42268] disconnected: session taken over.
+1777580383: New client connected from 172.19.0.1:57008 as humidityTwin01_publisher (p5, c0, k60).
+1777580384: New connection from 172.19.0.1:57016 on port 1883.
+1777580385: Client humidityTwin01_publisher [172.19.0.1:57008] disconnected: session taken over.
+1777580385: New client connected from 172.19.0.1:57016 as humidityTwin01_publisher (p5, c0, k60).
+1777580386: New connection from 172.19.0.1:57032 on port 1883.
+1777580386: Client humidityTwin01_publisher [172.19.0.1:57016] disconnected: session taken over.
+1777580386: New client connected from 172.19.0.1:57032 as humidityTwin01_publisher (p5, c0, k60).
+1777580387: New connection from 172.19.0.1:57038 on port 1883.
+1777580387: Client humidityTwin01_publisher [172.19.0.1:57032] disconnected: session taken over.
+1777580387: New client connected from 172.19.0.1:57038 as humidityTwin01_publisher (p5, c0, k60).
+1777580388: New connection from 172.19.0.1:57052 on port 1883.
+1777580388: Client humidityTwin01_publisher [172.19.0.1:57038] disconnected: session taken over.
+1777580388: New client connected from 172.19.0.1:57052 as humidityTwin01_publisher (p5, c0, k60).
+1777580389: New connection from 172.19.0.1:57066 on port 1883.
+1777580389: Client humidityTwin01_publisher [172.19.0.1:57052] disconnected: session taken over.
+1777580389: New client connected from 172.19.0.1:57066 as humidityTwin01_publisher (p5, c0, k60).
+1777580390: New connection from 172.19.0.1:57076 on port 1883.
+1777580390: Client humidityTwin01_publisher [172.19.0.1:57066] disconnected: session taken over.
+1777580390: New client connected from 172.19.0.1:57076 as humidityTwin01_publisher (p5, c0, k60).
+1777580391: New connection from 172.19.0.1:57092 on port 1883.
+1777580391: Client humidityTwin01_publisher [172.19.0.1:57076] disconnected: session taken over.
+1777580391: New client connected from 172.19.0.1:57092 as humidityTwin01_publisher (p5, c0, k60).
+1777580392: New connection from 172.19.0.1:57104 on port 1883.
+1777580392: Client humidityTwin01_publisher [172.19.0.1:57092] disconnected: session taken over.
+1777580392: New client connected from 172.19.0.1:57104 as humidityTwin01_publisher (p5, c0, k60).
+1777580393: New connection from 172.19.0.1:58114 on port 1883.
+1777580393: Client humidityTwin01_publisher [172.19.0.1:57104] disconnected: session taken over.
+1777580393: New client connected from 172.19.0.1:58114 as humidityTwin01_publisher (p5, c0, k60).
+1777580394: New connection from 172.19.0.1:58122 on port 1883.
+1777580394: Client humidityTwin01_publisher [172.19.0.1:58114] disconnected: session taken over.
+1777580394: New client connected from 172.19.0.1:58122 as humidityTwin01_publisher (p5, c0, k60).
+1777580395: New connection from 172.19.0.1:58138 on port 1883.
+1777580395: Client humidityTwin01_publisher [172.19.0.1:58122] disconnected: session taken over.
+1777580395: New client connected from 172.19.0.1:58138 as humidityTwin01_publisher (p5, c0, k60).
+1777580396: New connection from 172.19.0.1:58146 on port 1883.
+1777580396: Client humidityTwin01_publisher [172.19.0.1:58138] disconnected: session taken over.
+1777580396: New client connected from 172.19.0.1:58146 as humidityTwin01_publisher (p5, c0, k60).
+1777580397: New connection from 172.19.0.1:58158 on port 1883.
+1777580397: Client humidityTwin01_publisher [172.19.0.1:58146] disconnected: session taken over.
+1777580397: New client connected from 172.19.0.1:58158 as humidityTwin01_publisher (p5, c0, k60).
+1777580398: New connection from 172.19.0.1:58164 on port 1883.
+1777580398: Client humidityTwin01_publisher [172.19.0.1:58158] disconnected: session taken over.
+1777580398: New client connected from 172.19.0.1:58164 as humidityTwin01_publisher (p5, c0, k60).
+1777580399: New connection from 172.19.0.1:58174 on port 1883.
+1777580399: Client humidityTwin01_publisher [172.19.0.1:58164] disconnected: session taken over.
+1777580399: New client connected from 172.19.0.1:58174 as humidityTwin01_publisher (p5, c0, k60).
+1777580400: New connection from 172.19.0.1:58176 on port 1883.
+1777580400: Client humidityTwin01_publisher [172.19.0.1:58174] disconnected: session taken over.
+1777580400: New client connected from 172.19.0.1:58176 as humidityTwin01_publisher (p5, c0, k60).
+1777580401: New connection from 172.19.0.1:58190 on port 1883.
+1777580401: Client humidityTwin01_publisher [172.19.0.1:58176] disconnected: session taken over.
+1777580401: New client connected from 172.19.0.1:58190 as humidityTwin01_publisher (p5, c0, k60).
+1777580402: New connection from 172.19.0.1:58200 on port 1883.
+1777580402: Client humidityTwin01_publisher [172.19.0.1:58190] disconnected: session taken over.
+1777580402: New client connected from 172.19.0.1:58200 as humidityTwin01_publisher (p5, c0, k60).
+1777580403: New connection from 172.19.0.1:49998 on port 1883.
+1777580403: Client humidityTwin01_publisher [172.19.0.1:58200] disconnected: session taken over.
+1777580403: New client connected from 172.19.0.1:49998 as humidityTwin01_publisher (p5, c0, k60).
+1777580404: New connection from 172.19.0.1:50012 on port 1883.
+1777580404: Client humidityTwin01_publisher [172.19.0.1:49998] disconnected: session taken over.
+1777580404: New client connected from 172.19.0.1:50012 as humidityTwin01_publisher (p5, c0, k60).
+1777580405: New connection from 172.19.0.1:50018 on port 1883.
+1777580405: Client humidityTwin01_publisher [172.19.0.1:50012] disconnected: session taken over.
+1777580405: New client connected from 172.19.0.1:50018 as humidityTwin01_publisher (p5, c0, k60).
+1777580406: New connection from 172.19.0.1:50020 on port 1883.
+1777580406: Client humidityTwin01_publisher [172.19.0.1:50018] disconnected: session taken over.
+1777580406: New client connected from 172.19.0.1:50020 as humidityTwin01_publisher (p5, c0, k60).
+1777580407: New connection from 172.19.0.1:50026 on port 1883.
+1777580407: Client humidityTwin01_publisher [172.19.0.1:50020] disconnected: session taken over.
+1777580407: New client connected from 172.19.0.1:50026 as humidityTwin01_publisher (p5, c0, k60).
+1777580408: New connection from 172.19.0.1:50036 on port 1883.
+1777580408: Client humidityTwin01_publisher [172.19.0.1:50026] disconnected: session taken over.
+1777580408: New client connected from 172.19.0.1:50036 as humidityTwin01_publisher (p5, c0, k60).
+1777580409: New connection from 172.19.0.1:50044 on port 1883.
+1777580409: Client humidityTwin01_publisher [172.19.0.1:50036] disconnected: session taken over.
+1777580409: New client connected from 172.19.0.1:50044 as humidityTwin01_publisher (p5, c0, k60).
+1777580410: New connection from 172.19.0.1:50056 on port 1883.
+1777580410: Client humidityTwin01_publisher [172.19.0.1:50044] disconnected: session taken over.
+1777580410: New client connected from 172.19.0.1:50056 as humidityTwin01_publisher (p5, c0, k60).
+1777580411: New connection from 172.19.0.1:50072 on port 1883.
+1777580411: Client humidityTwin01_publisher [172.19.0.1:50056] disconnected: session taken over.
+1777580411: New client connected from 172.19.0.1:50072 as humidityTwin01_publisher (p5, c0, k60).
+1777580412: New connection from 172.19.0.1:50088 on port 1883.
+1777580412: Client humidityTwin01_publisher [172.19.0.1:50072] disconnected: session taken over.
+1777580412: New client connected from 172.19.0.1:50088 as humidityTwin01_publisher (p5, c0, k60).
+1777580413: New connection from 172.19.0.1:50986 on port 1883.
+1777580413: Client humidityTwin01_publisher [172.19.0.1:50088] disconnected: session taken over.
+1777580413: New client connected from 172.19.0.1:50986 as humidityTwin01_publisher (p5, c0, k60).
+1777580414: New connection from 172.19.0.1:51000 on port 1883.
+1777580414: Client humidityTwin01_publisher [172.19.0.1:50986] disconnected: session taken over.
+1777580414: New client connected from 172.19.0.1:51000 as humidityTwin01_publisher (p5, c0, k60).
+1777580415: New connection from 172.19.0.1:51004 on port 1883.
+1777580415: Client humidityTwin01_publisher [172.19.0.1:51000] disconnected: session taken over.
+1777580415: New client connected from 172.19.0.1:51004 as humidityTwin01_publisher (p5, c0, k60).
+1777580416: New connection from 172.19.0.1:51008 on port 1883.
+1777580416: Client humidityTwin01_publisher [172.19.0.1:51004] disconnected: session taken over.
+1777580416: New client connected from 172.19.0.1:51008 as humidityTwin01_publisher (p5, c0, k60).
+1777580417: New connection from 172.19.0.1:51010 on port 1883.
+1777580417: Client humidityTwin01_publisher [172.19.0.1:51008] disconnected: session taken over.
+1777580417: New client connected from 172.19.0.1:51010 as humidityTwin01_publisher (p5, c0, k60).
+1777580418: New connection from 172.19.0.1:51022 on port 1883.
+1777580418: Client humidityTwin01_publisher [172.19.0.1:51010] disconnected: session taken over.
+1777580418: New client connected from 172.19.0.1:51022 as humidityTwin01_publisher (p5, c0, k60).
+1777580419: New connection from 172.19.0.1:51028 on port 1883.
+1777580419: Client humidityTwin01_publisher [172.19.0.1:51022] disconnected: session taken over.
+1777580419: New client connected from 172.19.0.1:51028 as humidityTwin01_publisher (p5, c0, k60).
+1777580420: New connection from 172.19.0.1:51032 on port 1883.
+1777580420: Client humidityTwin01_publisher [172.19.0.1:51028] disconnected: session taken over.
+1777580420: New client connected from 172.19.0.1:51032 as humidityTwin01_publisher (p5, c0, k60).
+1777580421: New connection from 172.19.0.1:51036 on port 1883.
+1777580421: Client humidityTwin01_publisher [172.19.0.1:51032] disconnected: session taken over.
+1777580421: New client connected from 172.19.0.1:51036 as humidityTwin01_publisher (p5, c0, k60).
+1777580422: New connection from 172.19.0.1:37984 on port 1883.
+1777580422: Client humidityTwin01_publisher [172.19.0.1:51036] disconnected: session taken over.
+1777580422: New client connected from 172.19.0.1:37984 as humidityTwin01_publisher (p5, c0, k60).
+1777580423: New connection from 172.19.0.1:37996 on port 1883.
+1777580423: Client humidityTwin01_publisher [172.19.0.1:37984] disconnected: session taken over.
+1777580423: New client connected from 172.19.0.1:37996 as humidityTwin01_publisher (p5, c0, k60).
+1777580424: New connection from 172.19.0.1:38008 on port 1883.
+1777580424: Client humidityTwin01_publisher [172.19.0.1:37996] disconnected: session taken over.
+1777580424: New client connected from 172.19.0.1:38008 as humidityTwin01_publisher (p5, c0, k60).
+1777580425: New connection from 172.19.0.1:38022 on port 1883.
+1777580425: Client humidityTwin01_publisher [172.19.0.1:38008] disconnected: session taken over.
+1777580425: New client connected from 172.19.0.1:38022 as humidityTwin01_publisher (p5, c0, k60).
+1777580426: New connection from 172.19.0.1:38024 on port 1883.
+1777580426: Client humidityTwin01_publisher [172.19.0.1:38022] disconnected: session taken over.
+1777580426: New client connected from 172.19.0.1:38024 as humidityTwin01_publisher (p5, c0, k60).
+1777580427: New connection from 172.19.0.1:38040 on port 1883.
+1777580427: Client humidityTwin01_publisher [172.19.0.1:38024] disconnected: session taken over.
+1777580427: New client connected from 172.19.0.1:38040 as humidityTwin01_publisher (p5, c0, k60).
+1777580428: New connection from 172.19.0.1:38046 on port 1883.
+1777580429: Client humidityTwin01_publisher [172.19.0.1:38040] disconnected: session taken over.
+1777580429: New client connected from 172.19.0.1:38046 as humidityTwin01_publisher (p5, c0, k60).
+1777580430: New connection from 172.19.0.1:38054 on port 1883.
+1777580430: Client humidityTwin01_publisher [172.19.0.1:38046] disconnected: session taken over.
+1777580430: New client connected from 172.19.0.1:38054 as humidityTwin01_publisher (p5, c0, k60).
+1777580431: New connection from 172.19.0.1:38068 on port 1883.
+1777580431: Client humidityTwin01_publisher [172.19.0.1:38054] disconnected: session taken over.
+1777580431: New client connected from 172.19.0.1:38068 as humidityTwin01_publisher (p5, c0, k60).
+1777580432: New connection from 172.19.0.1:38084 on port 1883.
+1777580432: Client humidityTwin01_publisher [172.19.0.1:38068] disconnected: session taken over.
+1777580432: New client connected from 172.19.0.1:38084 as humidityTwin01_publisher (p5, c0, k60).
+1777580433: New connection from 172.19.0.1:59530 on port 1883.
+1777580433: Client humidityTwin01_publisher [172.19.0.1:38084] disconnected: session taken over.
+1777580433: New client connected from 172.19.0.1:59530 as humidityTwin01_publisher (p5, c0, k60).
+1777580434: New connection from 172.19.0.1:59534 on port 1883.
+1777580434: Client humidityTwin01_publisher [172.19.0.1:59530] disconnected: session taken over.
+1777580434: New client connected from 172.19.0.1:59534 as humidityTwin01_publisher (p5, c0, k60).
+1777580435: New connection from 172.19.0.1:59536 on port 1883.
+1777580435: Client humidityTwin01_publisher [172.19.0.1:59534] disconnected: session taken over.
+1777580435: New client connected from 172.19.0.1:59536 as humidityTwin01_publisher (p5, c0, k60).
+1777580436: New connection from 172.19.0.1:59540 on port 1883.
+1777580436: Client humidityTwin01_publisher [172.19.0.1:59536] disconnected: session taken over.
+1777580436: New client connected from 172.19.0.1:59540 as humidityTwin01_publisher (p5, c0, k60).
+1777580437: New connection from 172.19.0.1:59552 on port 1883.
+1777580437: Client humidityTwin01_publisher [172.19.0.1:59540] disconnected: session taken over.
+1777580437: New client connected from 172.19.0.1:59552 as humidityTwin01_publisher (p5, c0, k60).
+1777580438: New connection from 172.19.0.1:59562 on port 1883.
+1777580438: Client humidityTwin01_publisher [172.19.0.1:59552] disconnected: session taken over.
+1777580438: New client connected from 172.19.0.1:59562 as humidityTwin01_publisher (p5, c0, k60).
+1777580439: New connection from 172.19.0.1:59564 on port 1883.
+1777580439: Client humidityTwin01_publisher [172.19.0.1:59562] disconnected: session taken over.
+1777580439: New client connected from 172.19.0.1:59564 as humidityTwin01_publisher (p5, c0, k60).
+1777580440: New connection from 172.19.0.1:59570 on port 1883.
+1777580440: Client humidityTwin01_publisher [172.19.0.1:59564] disconnected: session taken over.
+1777580440: New client connected from 172.19.0.1:59570 as humidityTwin01_publisher (p5, c0, k60).
+1777580441: New connection from 172.19.0.1:59582 on port 1883.
+1777580441: Client humidityTwin01_publisher [172.19.0.1:59570] disconnected: session taken over.
+1777580441: New client connected from 172.19.0.1:59582 as humidityTwin01_publisher (p5, c0, k60).
+1777580442: New connection from 172.19.0.1:59598 on port 1883.
+1777580442: Client humidityTwin01_publisher [172.19.0.1:59582] disconnected: session taken over.
+1777580442: New client connected from 172.19.0.1:59598 as humidityTwin01_publisher (p5, c0, k60).
+1777580443: New connection from 172.19.0.1:33284 on port 1883.
+1777580443: Client humidityTwin01_publisher [172.19.0.1:59598] disconnected: session taken over.
+1777580443: New client connected from 172.19.0.1:33284 as humidityTwin01_publisher (p5, c0, k60).
+1777580444: New connection from 172.19.0.1:33294 on port 1883.
+1777580444: Client humidityTwin01_publisher [172.19.0.1:33284] disconnected: session taken over.
+1777580444: New client connected from 172.19.0.1:33294 as humidityTwin01_publisher (p5, c0, k60).
+1777580445: New connection from 172.19.0.1:33310 on port 1883.
+1777580445: Client humidityTwin01_publisher [172.19.0.1:33294] disconnected: session taken over.
+1777580445: New client connected from 172.19.0.1:33310 as humidityTwin01_publisher (p5, c0, k60).
+1777580446: New connection from 172.19.0.1:33314 on port 1883.
+1777580446: Client humidityTwin01_publisher [172.19.0.1:33310] disconnected: session taken over.
+1777580446: New client connected from 172.19.0.1:33314 as humidityTwin01_publisher (p5, c0, k60).
+1777580447: New connection from 172.19.0.1:33316 on port 1883.
+1777580447: Client humidityTwin01_publisher [172.19.0.1:33314] disconnected: session taken over.
+1777580447: New client connected from 172.19.0.1:33316 as humidityTwin01_publisher (p5, c0, k60).
+1777580448: New connection from 172.19.0.1:33322 on port 1883.
+1777580448: Client humidityTwin01_publisher [172.19.0.1:33316] disconnected: session taken over.
+1777580448: New client connected from 172.19.0.1:33322 as humidityTwin01_publisher (p5, c0, k60).
+1777580449: New connection from 172.19.0.1:33336 on port 1883.
+1777580449: Client humidityTwin01_publisher [172.19.0.1:33322] disconnected: session taken over.
+1777580449: New client connected from 172.19.0.1:33336 as humidityTwin01_publisher (p5, c0, k60).
+1777580450: New connection from 172.19.0.1:33340 on port 1883.
+1777580450: Client humidityTwin01_publisher [172.19.0.1:33336] disconnected: session taken over.
+1777580450: New client connected from 172.19.0.1:33340 as humidityTwin01_publisher (p5, c0, k60).
+1777580451: New connection from 172.19.0.1:33354 on port 1883.
+1777580451: Client humidityTwin01_publisher [172.19.0.1:33340] disconnected: session taken over.
+1777580451: New client connected from 172.19.0.1:33354 as humidityTwin01_publisher (p5, c0, k60).
+1777580452: New connection from 172.19.0.1:33366 on port 1883.
+1777580452: Client humidityTwin01_publisher [172.19.0.1:33354] disconnected: session taken over.
+1777580452: New client connected from 172.19.0.1:33366 as humidityTwin01_publisher (p5, c0, k60).
+1777580453: New connection from 172.19.0.1:51382 on port 1883.
+1777580453: Client humidityTwin01_publisher [172.19.0.1:33366] disconnected: session taken over.
+1777580453: New client connected from 172.19.0.1:51382 as humidityTwin01_publisher (p5, c0, k60).
+1777580454: New connection from 172.19.0.1:51396 on port 1883.
+1777580454: Client humidityTwin01_publisher [172.19.0.1:51382] disconnected: session taken over.
+1777580454: New client connected from 172.19.0.1:51396 as humidityTwin01_publisher (p5, c0, k60).
+1777580455: New connection from 172.19.0.1:51408 on port 1883.
+1777580455: Client humidityTwin01_publisher [172.19.0.1:51396] disconnected: session taken over.
+1777580455: New client connected from 172.19.0.1:51408 as humidityTwin01_publisher (p5, c0, k60).
+1777580456: New connection from 172.19.0.1:51418 on port 1883.
+1777580456: Client humidityTwin01_publisher [172.19.0.1:51408] disconnected: session taken over.
+1777580456: New client connected from 172.19.0.1:51418 as humidityTwin01_publisher (p5, c0, k60).
+1777580457: New connection from 172.19.0.1:51420 on port 1883.
+1777580457: Client humidityTwin01_publisher [172.19.0.1:51418] disconnected: session taken over.
+1777580457: New client connected from 172.19.0.1:51420 as humidityTwin01_publisher (p5, c0, k60).
+1777580458: New connection from 172.19.0.1:51422 on port 1883.
+1777580458: Client humidityTwin01_publisher [172.19.0.1:51420] disconnected: session taken over.
+1777580458: New client connected from 172.19.0.1:51422 as humidityTwin01_publisher (p5, c0, k60).
+1777580459: New connection from 172.19.0.1:51434 on port 1883.
+1777580459: Client humidityTwin01_publisher [172.19.0.1:51422] disconnected: session taken over.
+1777580459: New client connected from 172.19.0.1:51434 as humidityTwin01_publisher (p5, c0, k60).
+1777580460: New connection from 172.19.0.1:51448 on port 1883.
+1777580460: Client humidityTwin01_publisher [172.19.0.1:51434] disconnected: session taken over.
+1777580460: New client connected from 172.19.0.1:51448 as humidityTwin01_publisher (p5, c0, k60).
+1777580461: New connection from 172.19.0.1:51456 on port 1883.
+1777580461: Client humidityTwin01_publisher [172.19.0.1:51448] disconnected: session taken over.
+1777580461: New client connected from 172.19.0.1:51456 as humidityTwin01_publisher (p5, c0, k60).
+1777580462: New connection from 172.19.0.1:51460 on port 1883.
+1777580462: Client humidityTwin01_publisher [172.19.0.1:51456] disconnected: session taken over.
+1777580462: New client connected from 172.19.0.1:51460 as humidityTwin01_publisher (p5, c0, k60).
+1777580463: New connection from 172.19.0.1:36246 on port 1883.
+1777580463: Client humidityTwin01_publisher [172.19.0.1:51460] disconnected: session taken over.
+1777580463: New client connected from 172.19.0.1:36246 as humidityTwin01_publisher (p5, c0, k60).
+1777580464: New connection from 172.19.0.1:36252 on port 1883.
+1777580464: Client humidityTwin01_publisher [172.19.0.1:36246] disconnected: session taken over.
+1777580464: New client connected from 172.19.0.1:36252 as humidityTwin01_publisher (p5, c0, k60).
+1777580465: New connection from 172.19.0.1:36266 on port 1883.
+1777580465: Client humidityTwin01_publisher [172.19.0.1:36252] disconnected: session taken over.
+1777580465: New client connected from 172.19.0.1:36266 as humidityTwin01_publisher (p5, c0, k60).
+1777580466: New connection from 172.19.0.1:36270 on port 1883.
+1777580466: Client humidityTwin01_publisher [172.19.0.1:36266] disconnected: session taken over.
+1777580466: New client connected from 172.19.0.1:36270 as humidityTwin01_publisher (p5, c0, k60).
+1777580467: New connection from 172.19.0.1:36284 on port 1883.
+1777580467: Client humidityTwin01_publisher [172.19.0.1:36270] disconnected: session taken over.
+1777580467: New client connected from 172.19.0.1:36284 as humidityTwin01_publisher (p5, c0, k60).
+1777580468: New connection from 172.19.0.1:36290 on port 1883.
+1777580468: Client humidityTwin01_publisher [172.19.0.1:36284] disconnected: session taken over.
+1777580468: New client connected from 172.19.0.1:36290 as humidityTwin01_publisher (p5, c0, k60).
+1777580469: New connection from 172.19.0.1:36300 on port 1883.
+1777580469: Client humidityTwin01_publisher [172.19.0.1:36290] disconnected: session taken over.
+1777580469: New client connected from 172.19.0.1:36300 as humidityTwin01_publisher (p5, c0, k60).
+1777580470: New connection from 172.19.0.1:36312 on port 1883.
+1777580470: Client humidityTwin01_publisher [172.19.0.1:36300] disconnected: session taken over.
+1777580470: New client connected from 172.19.0.1:36312 as humidityTwin01_publisher (p5, c0, k60).
+1777580471: New connection from 172.19.0.1:36324 on port 1883.
+1777580471: Client humidityTwin01_publisher [172.19.0.1:36312] disconnected: session taken over.
+1777580471: New client connected from 172.19.0.1:36324 as humidityTwin01_publisher (p5, c0, k60).
+1777580472: New connection from 172.19.0.1:42700 on port 1883.
+1777580472: Client humidityTwin01_publisher [172.19.0.1:36324] disconnected: session taken over.
+1777580472: New client connected from 172.19.0.1:42700 as humidityTwin01_publisher (p5, c0, k60).
+1777580473: New connection from 172.19.0.1:42702 on port 1883.
+1777580473: Client humidityTwin01_publisher [172.19.0.1:42700] disconnected: session taken over.
+1777580473: New client connected from 172.19.0.1:42702 as humidityTwin01_publisher (p5, c0, k60).
+1777580474: New connection from 172.19.0.1:42710 on port 1883.
+1777580474: Client humidityTwin01_publisher [172.19.0.1:42702] disconnected: session taken over.
+1777580474: New client connected from 172.19.0.1:42710 as humidityTwin01_publisher (p5, c0, k60).
+1777580475: New connection from 172.19.0.1:42720 on port 1883.
+1777580475: Client humidityTwin01_publisher [172.19.0.1:42710] disconnected: session taken over.
+1777580475: New client connected from 172.19.0.1:42720 as humidityTwin01_publisher (p5, c0, k60).
+1777580476: New connection from 172.19.0.1:42722 on port 1883.
+1777580476: Client humidityTwin01_publisher [172.19.0.1:42720] disconnected: session taken over.
+1777580476: New client connected from 172.19.0.1:42722 as humidityTwin01_publisher (p5, c0, k60).
+1777580477: New connection from 172.19.0.1:42730 on port 1883.
+1777580477: Client humidityTwin01_publisher [172.19.0.1:42722] disconnected: session taken over.
+1777580477: New client connected from 172.19.0.1:42730 as humidityTwin01_publisher (p5, c0, k60).
+1777580478: New connection from 172.19.0.1:42734 on port 1883.
+1777580479: Client humidityTwin01_publisher [172.19.0.1:42730] disconnected: session taken over.
+1777580479: New client connected from 172.19.0.1:42734 as humidityTwin01_publisher (p5, c0, k60).
+1777580480: New connection from 172.19.0.1:42746 on port 1883.
+1777580480: Client humidityTwin01_publisher [172.19.0.1:42734] disconnected: session taken over.
+1777580480: New client connected from 172.19.0.1:42746 as humidityTwin01_publisher (p5, c0, k60).
+1777580481: New connection from 172.19.0.1:42748 on port 1883.
+1777580481: Client humidityTwin01_publisher [172.19.0.1:42746] disconnected: session taken over.
+1777580481: New client connected from 172.19.0.1:42748 as humidityTwin01_publisher (p5, c0, k60).
+1777580482: New connection from 172.19.0.1:42762 on port 1883.
+1777580482: Client humidityTwin01_publisher [172.19.0.1:42748] disconnected: session taken over.
+1777580482: New client connected from 172.19.0.1:42762 as humidityTwin01_publisher (p5, c0, k60).
+1777580483: New connection from 172.19.0.1:40868 on port 1883.
+1777580483: Client humidityTwin01_publisher [172.19.0.1:42762] disconnected: session taken over.
+1777580483: New client connected from 172.19.0.1:40868 as humidityTwin01_publisher (p5, c0, k60).
+1777580484: New connection from 172.19.0.1:40872 on port 1883.
+1777580484: Client humidityTwin01_publisher [172.19.0.1:40868] disconnected: session taken over.
+1777580484: New client connected from 172.19.0.1:40872 as humidityTwin01_publisher (p5, c0, k60).
+1777580485: New connection from 172.19.0.1:40874 on port 1883.
+1777580485: Client humidityTwin01_publisher [172.19.0.1:40872] disconnected: session taken over.
+1777580485: New client connected from 172.19.0.1:40874 as humidityTwin01_publisher (p5, c0, k60).
+1777580486: New connection from 172.19.0.1:40882 on port 1883.
+1777580486: Client humidityTwin01_publisher [172.19.0.1:40874] disconnected: session taken over.
+1777580486: New client connected from 172.19.0.1:40882 as humidityTwin01_publisher (p5, c0, k60).
+1777580487: New connection from 172.19.0.1:40898 on port 1883.
+1777580487: Client humidityTwin01_publisher [172.19.0.1:40882] disconnected: session taken over.
+1777580487: New client connected from 172.19.0.1:40898 as humidityTwin01_publisher (p5, c0, k60).
+1777580488: New connection from 172.19.0.1:40910 on port 1883.
+1777580488: Client humidityTwin01_publisher [172.19.0.1:40898] disconnected: session taken over.
+1777580488: New client connected from 172.19.0.1:40910 as humidityTwin01_publisher (p5, c0, k60).
+1777580489: New connection from 172.19.0.1:40922 on port 1883.
+1777580489: Client humidityTwin01_publisher [172.19.0.1:40910] disconnected: session taken over.
+1777580489: New client connected from 172.19.0.1:40922 as humidityTwin01_publisher (p5, c0, k60).
+1777580490: New connection from 172.19.0.1:40930 on port 1883.
+1777580490: Client humidityTwin01_publisher [172.19.0.1:40922] disconnected: session taken over.
+1777580490: New client connected from 172.19.0.1:40930 as humidityTwin01_publisher (p5, c0, k60).
+1777580491: New connection from 172.19.0.1:40942 on port 1883.
+1777580491: Client humidityTwin01_publisher [172.19.0.1:40930] disconnected: session taken over.
+1777580491: New client connected from 172.19.0.1:40942 as humidityTwin01_publisher (p5, c0, k60).
+1777580492: New connection from 172.19.0.1:40946 on port 1883.
+1777580492: Client humidityTwin01_publisher [172.19.0.1:40942] disconnected: session taken over.
+1777580492: New client connected from 172.19.0.1:40946 as humidityTwin01_publisher (p5, c0, k60).
+1777580493: New connection from 172.19.0.1:41818 on port 1883.
+1777580493: Client humidityTwin01_publisher [172.19.0.1:40946] disconnected: session taken over.
+1777580493: New client connected from 172.19.0.1:41818 as humidityTwin01_publisher (p5, c0, k60).
+1777580494: New connection from 172.19.0.1:41826 on port 1883.
+1777580494: Client humidityTwin01_publisher [172.19.0.1:41818] disconnected: session taken over.
+1777580494: New client connected from 172.19.0.1:41826 as humidityTwin01_publisher (p5, c0, k60).
+1777580495: New connection from 172.19.0.1:41842 on port 1883.
+1777580495: Client humidityTwin01_publisher [172.19.0.1:41826] disconnected: session taken over.
+1777580495: New client connected from 172.19.0.1:41842 as humidityTwin01_publisher (p5, c0, k60).
+1777580496: New connection from 172.19.0.1:41850 on port 1883.
+1777580496: Client humidityTwin01_publisher [172.19.0.1:41842] disconnected: session taken over.
+1777580496: New client connected from 172.19.0.1:41850 as humidityTwin01_publisher (p5, c0, k60).
+1777580497: New connection from 172.19.0.1:41862 on port 1883.
+1777580497: Client humidityTwin01_publisher [172.19.0.1:41850] disconnected: session taken over.
+1777580497: New client connected from 172.19.0.1:41862 as humidityTwin01_publisher (p5, c0, k60).
+1777580498: New connection from 172.19.0.1:41878 on port 1883.
+1777580498: Client humidityTwin01_publisher [172.19.0.1:41862] disconnected: session taken over.
+1777580498: New client connected from 172.19.0.1:41878 as humidityTwin01_publisher (p5, c0, k60).
+1777580499: New connection from 172.19.0.1:41890 on port 1883.
+1777580499: Client humidityTwin01_publisher [172.19.0.1:41878] disconnected: session taken over.
+1777580499: New client connected from 172.19.0.1:41890 as humidityTwin01_publisher (p5, c0, k60).
+1777580500: New connection from 172.19.0.1:41892 on port 1883.
+1777580500: Client humidityTwin01_publisher [172.19.0.1:41890] disconnected: session taken over.
+1777580500: New client connected from 172.19.0.1:41892 as humidityTwin01_publisher (p5, c0, k60).
+1777580501: New connection from 172.19.0.1:41902 on port 1883.
+1777580501: Client humidityTwin01_publisher [172.19.0.1:41892] disconnected: session taken over.
+1777580501: New client connected from 172.19.0.1:41902 as humidityTwin01_publisher (p5, c0, k60).
+1777580502: New connection from 172.19.0.1:41912 on port 1883.
+1777580502: Client humidityTwin01_publisher [172.19.0.1:41902] disconnected: session taken over.
+1777580502: New client connected from 172.19.0.1:41912 as humidityTwin01_publisher (p5, c0, k60).
+1777580503: New connection from 172.19.0.1:42528 on port 1883.
+1777580503: Client humidityTwin01_publisher [172.19.0.1:41912] disconnected: session taken over.
+1777580503: New client connected from 172.19.0.1:42528 as humidityTwin01_publisher (p5, c0, k60).
+1777580504: New connection from 172.19.0.1:42542 on port 1883.
+1777580504: Client humidityTwin01_publisher [172.19.0.1:42528] disconnected: session taken over.
+1777580504: New client connected from 172.19.0.1:42542 as humidityTwin01_publisher (p5, c0, k60).
+1777580505: New connection from 172.19.0.1:42550 on port 1883.
+1777580505: Client humidityTwin01_publisher [172.19.0.1:42542] disconnected: session taken over.
+1777580505: New client connected from 172.19.0.1:42550 as humidityTwin01_publisher (p5, c0, k60).
+1777580506: New connection from 172.19.0.1:42560 on port 1883.
+1777580506: Client humidityTwin01_publisher [172.19.0.1:42550] disconnected: session taken over.
+1777580506: New client connected from 172.19.0.1:42560 as humidityTwin01_publisher (p5, c0, k60).
+1777580507: New connection from 172.19.0.1:42570 on port 1883.
+1777580507: Client humidityTwin01_publisher [172.19.0.1:42560] disconnected: session taken over.
+1777580507: New client connected from 172.19.0.1:42570 as humidityTwin01_publisher (p5, c0, k60).
+1777580508: New connection from 172.19.0.1:42572 on port 1883.
+1777580508: Client humidityTwin01_publisher [172.19.0.1:42570] disconnected: session taken over.
+1777580508: New client connected from 172.19.0.1:42572 as humidityTwin01_publisher (p5, c0, k60).
+1777580509: New connection from 172.19.0.1:42586 on port 1883.
+1777580509: Client humidityTwin01_publisher [172.19.0.1:42572] disconnected: session taken over.
+1777580509: New client connected from 172.19.0.1:42586 as humidityTwin01_publisher (p5, c0, k60).
+1777580510: New connection from 172.19.0.1:42590 on port 1883.
+1777580510: Client humidityTwin01_publisher [172.19.0.1:42586] disconnected: session taken over.
+1777580510: New client connected from 172.19.0.1:42590 as humidityTwin01_publisher (p5, c0, k60).
+1777580511: New connection from 172.19.0.1:42602 on port 1883.
+1777580511: Client humidityTwin01_publisher [172.19.0.1:42590] disconnected: session taken over.
+1777580511: New client connected from 172.19.0.1:42602 as humidityTwin01_publisher (p5, c0, k60).
+1777580512: New connection from 172.19.0.1:42610 on port 1883.
+1777580512: Client humidityTwin01_publisher [172.19.0.1:42602] disconnected: session taken over.
+1777580512: New client connected from 172.19.0.1:42610 as humidityTwin01_publisher (p5, c0, k60).
+1777580513: New connection from 172.19.0.1:47832 on port 1883.
+1777580513: Client humidityTwin01_publisher [172.19.0.1:42610] disconnected: session taken over.
+1777580513: New client connected from 172.19.0.1:47832 as humidityTwin01_publisher (p5, c0, k60).
+1777580514: New connection from 172.19.0.1:47838 on port 1883.
+1777580514: Client humidityTwin01_publisher [172.19.0.1:47832] disconnected: session taken over.
+1777580514: New client connected from 172.19.0.1:47838 as humidityTwin01_publisher (p5, c0, k60).
+1777580515: New connection from 172.19.0.1:47848 on port 1883.
+1777580515: Client humidityTwin01_publisher [172.19.0.1:47838] disconnected: session taken over.
+1777580515: New client connected from 172.19.0.1:47848 as humidityTwin01_publisher (p5, c0, k60).
+1777580516: New connection from 172.19.0.1:47864 on port 1883.
+1777580516: Client humidityTwin01_publisher [172.19.0.1:47848] disconnected: session taken over.
+1777580516: New client connected from 172.19.0.1:47864 as humidityTwin01_publisher (p5, c0, k60).
+1777580517: New connection from 172.19.0.1:47878 on port 1883.
+1777580517: Client humidityTwin01_publisher [172.19.0.1:47864] disconnected: session taken over.
+1777580517: New client connected from 172.19.0.1:47878 as humidityTwin01_publisher (p5, c0, k60).
+1777580697: Client nodered_client [172.19.0.5:43328] disconnected.
+1777580697: mosquitto version 2.1.2 terminating
+1777580697: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777580740: mosquitto version 2.1.2 starting
+1777580740: Config loaded from /mosquitto/config/mosquitto.conf.
+1777580740: Bridge support available.
+1777580740: Persistence support available.
+1777580740: TLS support available.
+1777580740: TLS-PSK support available.
+1777580740: Websockets support available.
+1777580740: Opening ipv4 listen socket on port 1883.
+1777580740: Opening ipv6 listen socket on port 1883.
+1777580740: mosquitto version 2.1.2 running
+1777580741: New connection from 172.19.0.1:59256 on port 1883.
+1777580741: New client connected from 172.19.0.1:59256 as humidityTwin01_publisher (p5, c0, k60).
+1777580743: New connection from 172.19.0.5:44998 on port 1883.
+1777580743: New client connected from 172.19.0.5:44998 as nodered_client (p4, c1, k60).
+1777580851: New connection from 172.19.0.1:41918 on port 1883.
+1777580851: Client humidityTwin01_publisher [172.19.0.1:59256] disconnected: session taken over.
+1777580851: New client connected from 172.19.0.1:41918 as humidityTwin01_publisher (p5, c1, k60).
+1777580852: New connection from 172.19.0.1:41924 on port 1883.
+1777580852: Client humidityTwin01_publisher [172.19.0.1:41918] disconnected: session taken over.
+1777580852: New client connected from 172.19.0.1:41924 as humidityTwin01_publisher (p5, c0, k60).
+1777580853: New connection from 172.19.0.1:60136 on port 1883.
+1777580853: Client humidityTwin01_publisher [172.19.0.1:41924] disconnected: session taken over.
+1777580853: New client connected from 172.19.0.1:60136 as humidityTwin01_publisher (p5, c0, k60).
+1777580854: New connection from 172.19.0.1:60144 on port 1883.
+1777580854: Client humidityTwin01_publisher [172.19.0.1:60136] disconnected: session taken over.
+1777580854: New client connected from 172.19.0.1:60144 as humidityTwin01_publisher (p5, c0, k60).
+1777580855: New connection from 172.19.0.1:60148 on port 1883.
+1777580855: Client humidityTwin01_publisher [172.19.0.1:60144] disconnected: session taken over.
+1777580855: New client connected from 172.19.0.1:60148 as humidityTwin01_publisher (p5, c0, k60).
+1777580856: New connection from 172.19.0.1:60162 on port 1883.
+1777580856: Client humidityTwin01_publisher [172.19.0.1:60148] disconnected: session taken over.
+1777580856: New client connected from 172.19.0.1:60162 as humidityTwin01_publisher (p5, c0, k60).
+1777580857: New connection from 172.19.0.1:60166 on port 1883.
+1777580857: Client humidityTwin01_publisher [172.19.0.1:60162] disconnected: session taken over.
+1777580857: New client connected from 172.19.0.1:60166 as humidityTwin01_publisher (p5, c0, k60).
+1777580858: New connection from 172.19.0.1:60178 on port 1883.
+1777580858: Client humidityTwin01_publisher [172.19.0.1:60166] disconnected: session taken over.
+1777580858: New client connected from 172.19.0.1:60178 as humidityTwin01_publisher (p5, c0, k60).
+1777580859: New connection from 172.19.0.1:60194 on port 1883.
+1777580859: Client humidityTwin01_publisher [172.19.0.1:60178] disconnected: session taken over.
+1777580859: New client connected from 172.19.0.1:60194 as humidityTwin01_publisher (p5, c0, k60).
+1777580860: New connection from 172.19.0.1:60196 on port 1883.
+1777580860: Client humidityTwin01_publisher [172.19.0.1:60194] disconnected: session taken over.
+1777580860: New client connected from 172.19.0.1:60196 as humidityTwin01_publisher (p5, c0, k60).
+1777580861: New connection from 172.19.0.1:60202 on port 1883.
+1777580861: Client humidityTwin01_publisher [172.19.0.1:60196] disconnected: session taken over.
+1777580861: New client connected from 172.19.0.1:60202 as humidityTwin01_publisher (p5, c0, k60).
+1777580862: New connection from 172.19.0.1:60210 on port 1883.
+1777580862: Client humidityTwin01_publisher [172.19.0.1:60202] disconnected: session taken over.
+1777580862: New client connected from 172.19.0.1:60210 as humidityTwin01_publisher (p5, c0, k60).
+1777580863: New connection from 172.19.0.1:41554 on port 1883.
+1777580863: Client humidityTwin01_publisher [172.19.0.1:60210] disconnected: session taken over.
+1777580863: New client connected from 172.19.0.1:41554 as humidityTwin01_publisher (p5, c0, k60).
+1777580864: New connection from 172.19.0.1:41562 on port 1883.
+1777580864: Client humidityTwin01_publisher [172.19.0.1:41554] disconnected: session taken over.
+1777580864: New client connected from 172.19.0.1:41562 as humidityTwin01_publisher (p5, c0, k60).
+1777580865: New connection from 172.19.0.1:41578 on port 1883.
+1777580865: Client humidityTwin01_publisher [172.19.0.1:41562] disconnected: session taken over.
+1777580865: New client connected from 172.19.0.1:41578 as humidityTwin01_publisher (p5, c0, k60).
+1777580866: New connection from 172.19.0.1:41584 on port 1883.
+1777580866: Client humidityTwin01_publisher [172.19.0.1:41578] disconnected: session taken over.
+1777580866: New client connected from 172.19.0.1:41584 as humidityTwin01_publisher (p5, c0, k60).
+1777580867: New connection from 172.19.0.1:41586 on port 1883.
+1777580867: Client humidityTwin01_publisher [172.19.0.1:41584] disconnected: session taken over.
+1777580867: New client connected from 172.19.0.1:41586 as humidityTwin01_publisher (p5, c0, k60).
+1777580868: New connection from 172.19.0.1:41592 on port 1883.
+1777580868: Client humidityTwin01_publisher [172.19.0.1:41586] disconnected: session taken over.
+1777580868: New client connected from 172.19.0.1:41592 as humidityTwin01_publisher (p5, c0, k60).
+1777580869: New connection from 172.19.0.1:41594 on port 1883.
+1777580869: Client humidityTwin01_publisher [172.19.0.1:41592] disconnected: session taken over.
+1777580869: New client connected from 172.19.0.1:41594 as humidityTwin01_publisher (p5, c0, k60).
+1777580870: New connection from 172.19.0.1:41602 on port 1883.
+1777580870: Client humidityTwin01_publisher [172.19.0.1:41594] disconnected: session taken over.
+1777580870: New client connected from 172.19.0.1:41602 as humidityTwin01_publisher (p5, c0, k60).
+1777580871: New connection from 172.19.0.1:41614 on port 1883.
+1777580871: Client humidityTwin01_publisher [172.19.0.1:41602] disconnected: session taken over.
+1777580871: New client connected from 172.19.0.1:41614 as humidityTwin01_publisher (p5, c0, k60).
+1777580872: New connection from 172.19.0.1:41620 on port 1883.
+1777580872: Client humidityTwin01_publisher [172.19.0.1:41614] disconnected: session taken over.
+1777580872: New client connected from 172.19.0.1:41620 as humidityTwin01_publisher (p5, c0, k60).
+1777580873: New connection from 172.19.0.1:40220 on port 1883.
+1777580873: Client humidityTwin01_publisher [172.19.0.1:41620] disconnected: session taken over.
+1777580873: New client connected from 172.19.0.1:40220 as humidityTwin01_publisher (p5, c0, k60).
+1777580874: New connection from 172.19.0.1:40226 on port 1883.
+1777580874: Client humidityTwin01_publisher [172.19.0.1:40220] disconnected: session taken over.
+1777580874: New client connected from 172.19.0.1:40226 as humidityTwin01_publisher (p5, c0, k60).
+1777580875: New connection from 172.19.0.1:40234 on port 1883.
+1777580875: Client humidityTwin01_publisher [172.19.0.1:40226] disconnected: session taken over.
+1777580875: New client connected from 172.19.0.1:40234 as humidityTwin01_publisher (p5, c0, k60).
+1777580876: New connection from 172.19.0.1:40236 on port 1883.
+1777580876: Client humidityTwin01_publisher [172.19.0.1:40234] disconnected: session taken over.
+1777580876: New client connected from 172.19.0.1:40236 as humidityTwin01_publisher (p5, c0, k60).
+1777580877: New connection from 172.19.0.1:40238 on port 1883.
+1777580877: Client humidityTwin01_publisher [172.19.0.1:40236] disconnected: session taken over.
+1777580877: New client connected from 172.19.0.1:40238 as humidityTwin01_publisher (p5, c0, k60).
+1777580878: New connection from 172.19.0.1:40252 on port 1883.
+1777580878: Client humidityTwin01_publisher [172.19.0.1:40238] disconnected: session taken over.
+1777580878: New client connected from 172.19.0.1:40252 as humidityTwin01_publisher (p5, c0, k60).
+1777580879: New connection from 172.19.0.1:40256 on port 1883.
+1777580879: Client humidityTwin01_publisher [172.19.0.1:40252] disconnected: session taken over.
+1777580879: New client connected from 172.19.0.1:40256 as humidityTwin01_publisher (p5, c0, k60).
+1777580880: New connection from 172.19.0.1:40262 on port 1883.
+1777580880: Client humidityTwin01_publisher [172.19.0.1:40256] disconnected: session taken over.
+1777580880: New client connected from 172.19.0.1:40262 as humidityTwin01_publisher (p5, c0, k60).
+1777580881: New connection from 172.19.0.1:40276 on port 1883.
+1777580881: Client humidityTwin01_publisher [172.19.0.1:40262] disconnected: session taken over.
+1777580881: New client connected from 172.19.0.1:40276 as humidityTwin01_publisher (p5, c0, k60).
+1777580882: New connection from 172.19.0.1:37372 on port 1883.
+1777580882: Client humidityTwin01_publisher [172.19.0.1:40276] disconnected: session taken over.
+1777580882: New client connected from 172.19.0.1:37372 as humidityTwin01_publisher (p5, c0, k60).
+1777580883: New connection from 172.19.0.1:37384 on port 1883.
+1777580883: Client humidityTwin01_publisher [172.19.0.1:37372] disconnected: session taken over.
+1777580883: New client connected from 172.19.0.1:37384 as humidityTwin01_publisher (p5, c0, k60).
+1777580884: New connection from 172.19.0.1:37392 on port 1883.
+1777580884: Client humidityTwin01_publisher [172.19.0.1:37384] disconnected: session taken over.
+1777580884: New client connected from 172.19.0.1:37392 as humidityTwin01_publisher (p5, c0, k60).
+1777580885: New connection from 172.19.0.1:37402 on port 1883.
+1777580886: Client humidityTwin01_publisher [172.19.0.1:37392] disconnected: session taken over.
+1777580886: New client connected from 172.19.0.1:37402 as humidityTwin01_publisher (p5, c0, k60).
+1777580887: New connection from 172.19.0.1:37406 on port 1883.
+1777580887: Client humidityTwin01_publisher [172.19.0.1:37402] disconnected: session taken over.
+1777580887: New client connected from 172.19.0.1:37406 as humidityTwin01_publisher (p5, c0, k60).
+1777580888: New connection from 172.19.0.1:37412 on port 1883.
+1777580888: Client humidityTwin01_publisher [172.19.0.1:37406] disconnected: session taken over.
+1777580888: New client connected from 172.19.0.1:37412 as humidityTwin01_publisher (p5, c0, k60).
+1777580889: New connection from 172.19.0.1:37418 on port 1883.
+1777580889: Client humidityTwin01_publisher [172.19.0.1:37412] disconnected: session taken over.
+1777580889: New client connected from 172.19.0.1:37418 as humidityTwin01_publisher (p5, c0, k60).
+1777580890: New connection from 172.19.0.1:37434 on port 1883.
+1777580890: Client humidityTwin01_publisher [172.19.0.1:37418] disconnected: session taken over.
+1777580890: New client connected from 172.19.0.1:37434 as humidityTwin01_publisher (p5, c0, k60).
+1777580891: New connection from 172.19.0.1:37442 on port 1883.
+1777580891: Client humidityTwin01_publisher [172.19.0.1:37434] disconnected: session taken over.
+1777580891: New client connected from 172.19.0.1:37442 as humidityTwin01_publisher (p5, c0, k60).
+1777580892: New connection from 172.19.0.1:37450 on port 1883.
+1777580892: Client humidityTwin01_publisher [172.19.0.1:37442] disconnected: session taken over.
+1777580892: New client connected from 172.19.0.1:37450 as humidityTwin01_publisher (p5, c0, k60).
+1777580893: New connection from 172.19.0.1:37362 on port 1883.
+1777580893: Client humidityTwin01_publisher [172.19.0.1:37450] disconnected: session taken over.
+1777580893: New client connected from 172.19.0.1:37362 as humidityTwin01_publisher (p5, c0, k60).
+1777580894: New connection from 172.19.0.1:37364 on port 1883.
+1777580894: Client humidityTwin01_publisher [172.19.0.1:37362] disconnected: session taken over.
+1777580894: New client connected from 172.19.0.1:37364 as humidityTwin01_publisher (p5, c0, k60).
+1777580895: New connection from 172.19.0.1:37366 on port 1883.
+1777580895: Client humidityTwin01_publisher [172.19.0.1:37364] disconnected: session taken over.
+1777580895: New client connected from 172.19.0.1:37366 as humidityTwin01_publisher (p5, c0, k60).
+1777580896: New connection from 172.19.0.1:37372 on port 1883.
+1777580896: Client humidityTwin01_publisher [172.19.0.1:37366] disconnected: session taken over.
+1777580896: New client connected from 172.19.0.1:37372 as humidityTwin01_publisher (p5, c0, k60).
+1777580897: New connection from 172.19.0.1:37382 on port 1883.
+1777580897: Client humidityTwin01_publisher [172.19.0.1:37372] disconnected: session taken over.
+1777580897: New client connected from 172.19.0.1:37382 as humidityTwin01_publisher (p5, c0, k60).
+1777580898: New connection from 172.19.0.1:37388 on port 1883.
+1777580898: Client humidityTwin01_publisher [172.19.0.1:37382] disconnected: session taken over.
+1777580898: New client connected from 172.19.0.1:37388 as humidityTwin01_publisher (p5, c0, k60).
+1777580899: New connection from 172.19.0.1:37404 on port 1883.
+1777580899: Client humidityTwin01_publisher [172.19.0.1:37388] disconnected: session taken over.
+1777580899: New client connected from 172.19.0.1:37404 as humidityTwin01_publisher (p5, c0, k60).
+1777580900: New connection from 172.19.0.1:37408 on port 1883.
+1777580900: Client humidityTwin01_publisher [172.19.0.1:37404] disconnected: session taken over.
+1777580900: New client connected from 172.19.0.1:37408 as humidityTwin01_publisher (p5, c0, k60).
+1777580901: New connection from 172.19.0.1:37414 on port 1883.
+1777580901: Client humidityTwin01_publisher [172.19.0.1:37408] disconnected: session taken over.
+1777580901: New client connected from 172.19.0.1:37414 as humidityTwin01_publisher (p5, c0, k60).
+1777580902: New connection from 172.19.0.1:37418 on port 1883.
+1777580902: Client humidityTwin01_publisher [172.19.0.1:37414] disconnected: session taken over.
+1777580902: New client connected from 172.19.0.1:37418 as humidityTwin01_publisher (p5, c0, k60).
+1777580903: New connection from 172.19.0.1:57672 on port 1883.
+1777580903: Client humidityTwin01_publisher [172.19.0.1:37418] disconnected: session taken over.
+1777580903: New client connected from 172.19.0.1:57672 as humidityTwin01_publisher (p5, c0, k60).
+1777580904: New connection from 172.19.0.1:57686 on port 1883.
+1777580904: Client humidityTwin01_publisher [172.19.0.1:57672] disconnected: session taken over.
+1777580904: New client connected from 172.19.0.1:57686 as humidityTwin01_publisher (p5, c0, k60).
+1777580905: New connection from 172.19.0.1:57694 on port 1883.
+1777580905: Client humidityTwin01_publisher [172.19.0.1:57686] disconnected: session taken over.
+1777580905: New client connected from 172.19.0.1:57694 as humidityTwin01_publisher (p5, c0, k60).
+1777580906: New connection from 172.19.0.1:57698 on port 1883.
+1777580906: Client humidityTwin01_publisher [172.19.0.1:57694] disconnected: session taken over.
+1777580906: New client connected from 172.19.0.1:57698 as humidityTwin01_publisher (p5, c0, k60).
+1777580907: New connection from 172.19.0.1:57710 on port 1883.
+1777580907: Client humidityTwin01_publisher [172.19.0.1:57698] disconnected: session taken over.
+1777580907: New client connected from 172.19.0.1:57710 as humidityTwin01_publisher (p5, c0, k60).
+1777580908: New connection from 172.19.0.1:57724 on port 1883.
+1777580908: Client humidityTwin01_publisher [172.19.0.1:57710] disconnected: session taken over.
+1777580908: New client connected from 172.19.0.1:57724 as humidityTwin01_publisher (p5, c0, k60).
+1777580909: New connection from 172.19.0.1:57738 on port 1883.
+1777580909: Client humidityTwin01_publisher [172.19.0.1:57724] disconnected: session taken over.
+1777580909: New client connected from 172.19.0.1:57738 as humidityTwin01_publisher (p5, c0, k60).
+1777580910: New connection from 172.19.0.1:57750 on port 1883.
+1777580910: Client humidityTwin01_publisher [172.19.0.1:57738] disconnected: session taken over.
+1777580910: New client connected from 172.19.0.1:57750 as humidityTwin01_publisher (p5, c0, k60).
+1777580911: New connection from 172.19.0.1:57760 on port 1883.
+1777580911: Client humidityTwin01_publisher [172.19.0.1:57750] disconnected: session taken over.
+1777580911: New client connected from 172.19.0.1:57760 as humidityTwin01_publisher (p5, c0, k60).
+1777580912: New connection from 172.19.0.1:57772 on port 1883.
+1777580912: Client humidityTwin01_publisher [172.19.0.1:57760] disconnected: session taken over.
+1777580912: New client connected from 172.19.0.1:57772 as humidityTwin01_publisher (p5, c0, k60).
+1777580913: New connection from 172.19.0.1:34194 on port 1883.
+1777580913: Client humidityTwin01_publisher [172.19.0.1:57772] disconnected: session taken over.
+1777580913: New client connected from 172.19.0.1:34194 as humidityTwin01_publisher (p5, c0, k60).
+1777580914: New connection from 172.19.0.1:34210 on port 1883.
+1777580914: Client humidityTwin01_publisher [172.19.0.1:34194] disconnected: session taken over.
+1777580914: New client connected from 172.19.0.1:34210 as humidityTwin01_publisher (p5, c0, k60).
+1777580915: New connection from 172.19.0.1:34216 on port 1883.
+1777580915: Client humidityTwin01_publisher [172.19.0.1:34210] disconnected: session taken over.
+1777580915: New client connected from 172.19.0.1:34216 as humidityTwin01_publisher (p5, c0, k60).
+1777580916: New connection from 172.19.0.1:34218 on port 1883.
+1777580916: Client humidityTwin01_publisher [172.19.0.1:34216] disconnected: session taken over.
+1777580916: New client connected from 172.19.0.1:34218 as humidityTwin01_publisher (p5, c0, k60).
+1777580917: New connection from 172.19.0.1:34222 on port 1883.
+1777580917: Client humidityTwin01_publisher [172.19.0.1:34218] disconnected: session taken over.
+1777580917: New client connected from 172.19.0.1:34222 as humidityTwin01_publisher (p5, c0, k60).
+1777580918: New connection from 172.19.0.1:34236 on port 1883.
+1777580918: Client humidityTwin01_publisher [172.19.0.1:34222] disconnected: session taken over.
+1777580918: New client connected from 172.19.0.1:34236 as humidityTwin01_publisher (p5, c0, k60).
+1777580919: New connection from 172.19.0.1:34244 on port 1883.
+1777580919: Client humidityTwin01_publisher [172.19.0.1:34236] disconnected: session taken over.
+1777580919: New client connected from 172.19.0.1:34244 as humidityTwin01_publisher (p5, c0, k60).
+1777580920: New connection from 172.19.0.1:34250 on port 1883.
+1777580920: Client humidityTwin01_publisher [172.19.0.1:34244] disconnected: session taken over.
+1777580920: New client connected from 172.19.0.1:34250 as humidityTwin01_publisher (p5, c0, k60).
+1777580921: New connection from 172.19.0.1:34254 on port 1883.
+1777580921: Client humidityTwin01_publisher [172.19.0.1:34250] disconnected: session taken over.
+1777580921: New client connected from 172.19.0.1:34254 as humidityTwin01_publisher (p5, c0, k60).
+1777580922: New connection from 172.19.0.1:52672 on port 1883.
+1777580922: Client humidityTwin01_publisher [172.19.0.1:34254] disconnected: session taken over.
+1777580922: New client connected from 172.19.0.1:52672 as humidityTwin01_publisher (p5, c0, k60).
+1777580923: New connection from 172.19.0.1:52678 on port 1883.
+1777580923: Client humidityTwin01_publisher [172.19.0.1:52672] disconnected: session taken over.
+1777580923: New client connected from 172.19.0.1:52678 as humidityTwin01_publisher (p5, c0, k60).
+1777580924: New connection from 172.19.0.1:52694 on port 1883.
+1777580924: Client humidityTwin01_publisher [172.19.0.1:52678] disconnected: session taken over.
+1777580924: New client connected from 172.19.0.1:52694 as humidityTwin01_publisher (p5, c0, k60).
+1777580925: New connection from 172.19.0.1:52706 on port 1883.
+1777580925: Client humidityTwin01_publisher [172.19.0.1:52694] disconnected: session taken over.
+1777580925: New client connected from 172.19.0.1:52706 as humidityTwin01_publisher (p5, c0, k60).
+1777580926: New connection from 172.19.0.1:52720 on port 1883.
+1777580926: Client humidityTwin01_publisher [172.19.0.1:52706] disconnected: session taken over.
+1777580926: New client connected from 172.19.0.1:52720 as humidityTwin01_publisher (p5, c0, k60).
+1777580927: New connection from 172.19.0.1:52724 on port 1883.
+1777580927: Client humidityTwin01_publisher [172.19.0.1:52720] disconnected: session taken over.
+1777580927: New client connected from 172.19.0.1:52724 as humidityTwin01_publisher (p5, c0, k60).
+1777580928: New connection from 172.19.0.1:52738 on port 1883.
+1777580928: Client humidityTwin01_publisher [172.19.0.1:52724] disconnected: session taken over.
+1777580928: New client connected from 172.19.0.1:52738 as humidityTwin01_publisher (p5, c0, k60).
+1777580929: New connection from 172.19.0.1:52746 on port 1883.
+1777580929: Client humidityTwin01_publisher [172.19.0.1:52738] disconnected: session taken over.
+1777580929: New client connected from 172.19.0.1:52746 as humidityTwin01_publisher (p5, c0, k60).
+1777580930: New connection from 172.19.0.1:52752 on port 1883.
+1777580930: Client humidityTwin01_publisher [172.19.0.1:52746] disconnected: session taken over.
+1777580930: New client connected from 172.19.0.1:52752 as humidityTwin01_publisher (p5, c0, k60).
+1777580931: New connection from 172.19.0.1:52762 on port 1883.
+1777580931: Client humidityTwin01_publisher [172.19.0.1:52752] disconnected: session taken over.
+1777580931: New client connected from 172.19.0.1:52762 as humidityTwin01_publisher (p5, c0, k60).
+1777580932: New connection from 172.19.0.1:38136 on port 1883.
+1777580933: Client humidityTwin01_publisher [172.19.0.1:52762] disconnected: session taken over.
+1777580933: New client connected from 172.19.0.1:38136 as humidityTwin01_publisher (p5, c0, k60).
+1777580934: New connection from 172.19.0.1:38138 on port 1883.
+1777580934: Client humidityTwin01_publisher [172.19.0.1:38136] disconnected: session taken over.
+1777580934: New client connected from 172.19.0.1:38138 as humidityTwin01_publisher (p5, c0, k60).
+1777581130: New connection from 172.19.0.1:33554 on port 1883.
+1777581130: Client humidityTwin01_publisher [172.19.0.1:38138] disconnected: session taken over.
+1777581130: New client connected from 172.19.0.1:33554 as humidityTwin01_publisher (p5, c1, k60).
+1777581131: New connection from 172.19.0.1:33570 on port 1883.
+1777581131: Client humidityTwin01_publisher [172.19.0.1:33554] disconnected: session taken over.
+1777581131: New client connected from 172.19.0.1:33570 as humidityTwin01_publisher (p5, c0, k60).
+1777581132: New connection from 172.19.0.1:33586 on port 1883.
+1777581132: Client humidityTwin01_publisher [172.19.0.1:33570] disconnected: session taken over.
+1777581132: New client connected from 172.19.0.1:33586 as humidityTwin01_publisher (p5, c0, k60).
+1777581133: New connection from 172.19.0.1:56436 on port 1883.
+1777581133: Client humidityTwin01_publisher [172.19.0.1:33586] disconnected: session taken over.
+1777581133: New client connected from 172.19.0.1:56436 as humidityTwin01_publisher (p5, c0, k60).
+1777581134: New connection from 172.19.0.1:56452 on port 1883.
+1777581134: Client humidityTwin01_publisher [172.19.0.1:56436] disconnected: session taken over.
+1777581134: New client connected from 172.19.0.1:56452 as humidityTwin01_publisher (p5, c0, k60).
+1777581135: New connection from 172.19.0.1:56454 on port 1883.
+1777581135: Client humidityTwin01_publisher [172.19.0.1:56452] disconnected: session taken over.
+1777581135: New client connected from 172.19.0.1:56454 as humidityTwin01_publisher (p5, c0, k60).
+1777581136: New connection from 172.19.0.1:56456 on port 1883.
+1777581136: Client humidityTwin01_publisher [172.19.0.1:56454] disconnected: session taken over.
+1777581136: New client connected from 172.19.0.1:56456 as humidityTwin01_publisher (p5, c0, k60).
+1777581137: New connection from 172.19.0.1:56460 on port 1883.
+1777581137: Client humidityTwin01_publisher [172.19.0.1:56456] disconnected: session taken over.
+1777581137: New client connected from 172.19.0.1:56460 as humidityTwin01_publisher (p5, c0, k60).
+1777581138: New connection from 172.19.0.1:56464 on port 1883.
+1777581138: Client humidityTwin01_publisher [172.19.0.1:56460] disconnected: session taken over.
+1777581138: New client connected from 172.19.0.1:56464 as humidityTwin01_publisher (p5, c0, k60).
+1777581139: New connection from 172.19.0.1:56470 on port 1883.
+1777581139: Client humidityTwin01_publisher [172.19.0.1:56464] disconnected: session taken over.
+1777581139: New client connected from 172.19.0.1:56470 as humidityTwin01_publisher (p5, c0, k60).
+1777581140: New connection from 172.19.0.1:56476 on port 1883.
+1777581140: Client humidityTwin01_publisher [172.19.0.1:56470] disconnected: session taken over.
+1777581140: New client connected from 172.19.0.1:56476 as humidityTwin01_publisher (p5, c0, k60).
+1777581141: New connection from 172.19.0.1:56490 on port 1883.
+1777581141: Client humidityTwin01_publisher [172.19.0.1:56476] disconnected: session taken over.
+1777581141: New client connected from 172.19.0.1:56490 as humidityTwin01_publisher (p5, c0, k60).
+1777581142: New connection from 172.19.0.1:56496 on port 1883.
+1777581142: Client humidityTwin01_publisher [172.19.0.1:56490] disconnected: session taken over.
+1777581142: New client connected from 172.19.0.1:56496 as humidityTwin01_publisher (p5, c0, k60).
+1777581143: New connection from 172.19.0.1:42646 on port 1883.
+1777581143: Client humidityTwin01_publisher [172.19.0.1:56496] disconnected: session taken over.
+1777581143: New client connected from 172.19.0.1:42646 as humidityTwin01_publisher (p5, c0, k60).
+1777581144: New connection from 172.19.0.1:42660 on port 1883.
+1777581144: Client humidityTwin01_publisher [172.19.0.1:42646] disconnected: session taken over.
+1777581144: New client connected from 172.19.0.1:42660 as humidityTwin01_publisher (p5, c0, k60).
+1777581145: New connection from 172.19.0.1:42672 on port 1883.
+1777581145: Client humidityTwin01_publisher [172.19.0.1:42660] disconnected: session taken over.
+1777581145: New client connected from 172.19.0.1:42672 as humidityTwin01_publisher (p5, c0, k60).
+1777581146: New connection from 172.19.0.1:42682 on port 1883.
+1777581146: Client humidityTwin01_publisher [172.19.0.1:42672] disconnected: session taken over.
+1777581146: New client connected from 172.19.0.1:42682 as humidityTwin01_publisher (p5, c0, k60).
+1777581147: New connection from 172.19.0.1:42696 on port 1883.
+1777581147: Client humidityTwin01_publisher [172.19.0.1:42682] disconnected: session taken over.
+1777581147: New client connected from 172.19.0.1:42696 as humidityTwin01_publisher (p5, c0, k60).
+1777581148: New connection from 172.19.0.1:42712 on port 1883.
+1777581148: Client humidityTwin01_publisher [172.19.0.1:42696] disconnected: session taken over.
+1777581148: New client connected from 172.19.0.1:42712 as humidityTwin01_publisher (p5, c0, k60).
+1777581149: New connection from 172.19.0.1:42718 on port 1883.
+1777581149: Client humidityTwin01_publisher [172.19.0.1:42712] disconnected: session taken over.
+1777581149: New client connected from 172.19.0.1:42718 as humidityTwin01_publisher (p5, c0, k60).
+1777581150: New connection from 172.19.0.1:42728 on port 1883.
+1777581150: Client humidityTwin01_publisher [172.19.0.1:42718] disconnected: session taken over.
+1777581150: New client connected from 172.19.0.1:42728 as humidityTwin01_publisher (p5, c0, k60).
+1777581151: New connection from 172.19.0.1:42738 on port 1883.
+1777581151: Client humidityTwin01_publisher [172.19.0.1:42728] disconnected: session taken over.
+1777581151: New client connected from 172.19.0.1:42738 as humidityTwin01_publisher (p5, c0, k60).
+1777581152: New connection from 172.19.0.1:42750 on port 1883.
+1777581152: Client humidityTwin01_publisher [172.19.0.1:42738] disconnected: session taken over.
+1777581152: New client connected from 172.19.0.1:42750 as humidityTwin01_publisher (p5, c0, k60).
+1777581153: New connection from 172.19.0.1:60684 on port 1883.
+1777581153: Client humidityTwin01_publisher [172.19.0.1:42750] disconnected: session taken over.
+1777581153: New client connected from 172.19.0.1:60684 as humidityTwin01_publisher (p5, c0, k60).
+1777581154: New connection from 172.19.0.1:60696 on port 1883.
+1777581154: Client humidityTwin01_publisher [172.19.0.1:60684] disconnected: session taken over.
+1777581154: New client connected from 172.19.0.1:60696 as humidityTwin01_publisher (p5, c0, k60).
+1777581155: New connection from 172.19.0.1:60706 on port 1883.
+1777581155: Client humidityTwin01_publisher [172.19.0.1:60696] disconnected: session taken over.
+1777581155: New client connected from 172.19.0.1:60706 as humidityTwin01_publisher (p5, c0, k60).
+1777581156: New connection from 172.19.0.1:60722 on port 1883.
+1777581156: Client humidityTwin01_publisher [172.19.0.1:60706] disconnected: session taken over.
+1777581156: New client connected from 172.19.0.1:60722 as humidityTwin01_publisher (p5, c0, k60).
+1777581157: New connection from 172.19.0.1:60732 on port 1883.
+1777581157: Client humidityTwin01_publisher [172.19.0.1:60722] disconnected: session taken over.
+1777581157: New client connected from 172.19.0.1:60732 as humidityTwin01_publisher (p5, c0, k60).
+1777581158: New connection from 172.19.0.1:60748 on port 1883.
+1777581158: Client humidityTwin01_publisher [172.19.0.1:60732] disconnected: session taken over.
+1777581158: New client connected from 172.19.0.1:60748 as humidityTwin01_publisher (p5, c0, k60).
+1777581159: New connection from 172.19.0.1:60758 on port 1883.
+1777581159: Client humidityTwin01_publisher [172.19.0.1:60748] disconnected: session taken over.
+1777581159: New client connected from 172.19.0.1:60758 as humidityTwin01_publisher (p5, c0, k60).
+1777581160: New connection from 172.19.0.1:60766 on port 1883.
+1777581160: Client humidityTwin01_publisher [172.19.0.1:60758] disconnected: session taken over.
+1777581160: New client connected from 172.19.0.1:60766 as humidityTwin01_publisher (p5, c0, k60).
+1777581161: New connection from 172.19.0.1:60768 on port 1883.
+1777581161: Client humidityTwin01_publisher [172.19.0.1:60766] disconnected: session taken over.
+1777581161: New client connected from 172.19.0.1:60768 as humidityTwin01_publisher (p5, c0, k60).
+1777581162: New connection from 172.19.0.1:57574 on port 1883.
+1777581162: Client humidityTwin01_publisher [172.19.0.1:60768] disconnected: session taken over.
+1777581162: New client connected from 172.19.0.1:57574 as humidityTwin01_publisher (p5, c0, k60).
+1777581163: New connection from 172.19.0.1:57586 on port 1883.
+1777581164: Client humidityTwin01_publisher [172.19.0.1:57574] disconnected: session taken over.
+1777581164: New client connected from 172.19.0.1:57586 as humidityTwin01_publisher (p5, c0, k60).
+1777581165: New connection from 172.19.0.1:57592 on port 1883.
+1777581165: Client humidityTwin01_publisher [172.19.0.1:57586] disconnected: session taken over.
+1777581165: New client connected from 172.19.0.1:57592 as humidityTwin01_publisher (p5, c0, k60).
+1777581166: New connection from 172.19.0.1:57608 on port 1883.
+1777581166: Client humidityTwin01_publisher [172.19.0.1:57592] disconnected: session taken over.
+1777581166: New client connected from 172.19.0.1:57608 as humidityTwin01_publisher (p5, c0, k60).
+1777581183: Client humidityTwin01_publisher [172.19.0.1:57608] disconnected: connection closed by client.
+1777581308: Client nodered_client [172.19.0.5:44998] disconnected.
+1777581337: mosquitto version 2.1.2 terminating
+1777581337: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777581380: mosquitto version 2.1.2 starting
+1777581380: Config loaded from /mosquitto/config/mosquitto.conf.
+1777581380: Bridge support available.
+1777581380: Persistence support available.
+1777581380: TLS support available.
+1777581380: TLS-PSK support available.
+1777581380: Websockets support available.
+1777581380: Opening ipv4 listen socket on port 1883.
+1777581380: Opening ipv6 listen socket on port 1883.
+1777581380: mosquitto version 2.1.2 running
+1777581381: New connection from 172.19.0.5:42178 on port 1883.
+1777581381: New client connected from 172.19.0.5:42178 as nodered_client (p4, c1, k60).
+1777581418: New connection from 172.19.0.1:33682 on port 1883.
+1777581418: New client connected from 172.19.0.1:33682 as humidityTwin01_publisher (p5, c1, k60).
+1777581514: Client humidityTwin01_publisher [172.19.0.1:33682] disconnected.
+1777581751: mosquitto version 2.1.2 terminating
+1777581751: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777581919: mosquitto version 2.1.2 starting
+1777581919: Config loaded from /mosquitto/config/mosquitto.conf.
+1777581919: Bridge support available.
+1777581919: Persistence support available.
+1777581919: TLS support available.
+1777581919: TLS-PSK support available.
+1777581919: Websockets support available.
+1777581919: Opening ipv4 listen socket on port 1883.
+1777581919: Opening ipv6 listen socket on port 1883.
+1777581919: mosquitto version 2.1.2 running
+1777581923: New connection from 172.19.0.2:39566 on port 1883.
+1777581923: New client connected from 172.19.0.2:39566 as nodered_client (p4, c1, k60).
+1777581948: Client nodered_client [172.19.0.2:39566] disconnected.
+1777581949: mosquitto version 2.1.2 terminating
+1777581949: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1777581953: mosquitto version 2.1.2 starting
+1777581953: Config loaded from /mosquitto/config/mosquitto.conf.
+1777581953: Bridge support available.
+1777581953: Persistence support available.
+1777581953: TLS support available.
+1777581953: TLS-PSK support available.
+1777581953: Websockets support available.
+1777581953: Opening ipv4 listen socket on port 1883.
+1777581953: Opening ipv6 listen socket on port 1883.
+1777581953: mosquitto version 2.1.2 running
+1777581955: New connection from 172.19.0.5:48944 on port 1883.
+1777581955: New client connected from 172.19.0.5:48944 as nodered_client (p4, c1, k60).
+1777582004: New connection from 172.19.0.1:52444 on port 1883.
+1777582004: New client connected from 172.19.0.1:52444 as humidityTwin01_publisher (p5, c1, k60).
+1777582106: Client humidityTwin01_publisher [172.19.0.1:52444] disconnected.

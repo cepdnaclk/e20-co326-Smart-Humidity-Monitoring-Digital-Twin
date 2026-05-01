@@ -1,0 +1,16 @@
+apiVersion: 1
+
+datasources:
+  - name: InfluxDB
+    type: influxdb
+    uid: influxdb_ds
+    access: proxy
+    url: http://influxdb:8086
+    jsonData:
+      version: Flux
+      organization: co326_org
+      defaultBucket: co326_bucket
+    secureJsonData:
+      token: mytoken123456789
+    isDefault: true
+    editable: true

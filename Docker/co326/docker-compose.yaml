@@ -1,0 +1,66 @@
+services:
+  mosquitto_broker:
+    image: eclipse-mosquitto:latest
+    container_name: co326_mosquitto
+    ports:
+      - "1883:1883"      # MQTT
+      - "9001:9001"      # WebSocket MQTT
+    volumes:
+      - ./mosquitto/config:/mosquitto/config
+      - ./mosquitto/data:/mosquitto/data
+      - ./mosquitto/log:/mosquitto/log
+    restart: unless-stopped
+
+  influxdb:
+    image: influxdb:2.7
+    container_name: co326_influxdb
+    ports:
+      - "8086:8086"      # InfluxDB HTTP API
+    environment:
+      - DOCKER_INFLUXDB_INIT_MODE=setup
+      - DOCKER_INFLUXDB_INIT_USERNAME=admin
+      - DOCKER_INFLUXDB_INIT_PASSWORD=adminpassword123
+      - DOCKER_INFLUXDB_INIT_ORG=co326_org
+      - DOCKER_INFLUXDB_INIT_BUCKET=co326_bucket
+      - DOCKER_INFLUXDB_INIT_ADMIN_TOKEN=mytoken123456789
+    volumes:
+      - influxdb_data:/var/lib/influxdb2
+      - influxdb_config:/etc/influxdb2
+    restart: unless-stopped
+
+  nodered:
+    image: nodered/node-red:latest
+    container_name: co326_nodered
+    ports:
+      - "1880:1880"      # Node-RED web interface
+    environment:
+      - TZ=UTC
+    volumes:
+      - nodered_data:/data
+    depends_on:
+      - mosquitto_broker
+      - influxdb
+    restart: unless-stopped
+
+  grafana:
+    image: grafana/grafana:latest
+    container_name: co326_grafana
+    ports:
+      - "3000:3000"      # Grafana web interface
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+      - GF_INSTALL_PLUGINS=grafana-mqtt-datasource
+    volumes:
+      - grafana_data:/var/lib/grafana
+      - ./grafana/provisioning:/etc/grafana/provisioning
+      - ../../grafana/dashboard.json:/var/lib/grafana/dashboards/dashboard.json
+    depends_on:
+      - influxdb
+    restart: unless-stopped
+
+volumes:
+  influxdb_data:
+  influxdb_config:
+  nodered_data:
+  grafana_data:
